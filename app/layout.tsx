@@ -1,9 +1,8 @@
-import "./styles/index.scss";
-import { Inter } from "next/font/google";
+import { Metadata } from "next";
+import "@/styles/index.scss";
+import SEO from "./components/seo";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
+export const metadata: Metadata = {
   title: "Esteban Burgos CV",
   description:
     "This is my personal data, please contact me if you need more information.",
@@ -16,7 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <SEO />
+      <body>{children}</body>
     </html>
   );
 }

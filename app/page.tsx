@@ -1,10 +1,10 @@
 import Wrapper from "./components/layout/wrapper";
-import HomeDark from "./pages/home-dark";
+import Home from "./pages/home";
 
 export default function Page() {
   return (
     <Wrapper>
-      <HomeDark />
+      <Home />
     </Wrapper>
   );
 }
