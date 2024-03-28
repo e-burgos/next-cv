@@ -46,3 +46,23 @@
 .experienceLink:hover {
   color: white;
 }
+
+.experienceLinkLight {
+  font-weight: 600;
+  font-size: 15px;
+  position: relative;
+  text-decoration: none;
+  padding-left: 0px;
+}
+
+.experienceLinkLight:hover {
+  color: var(--bs-dark);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}

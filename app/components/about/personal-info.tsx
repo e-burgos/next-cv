@@ -1,5 +1,5 @@
-import React from "react";
-import { IPersonalInfo } from "@/data/about";
+import { IPersonalInfo } from '@/data/about/personal';
+import React from 'react';
 
 interface Props {
   content: IPersonalInfo;

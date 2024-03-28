@@ -1,5 +1,5 @@
-import { IAchievement } from "@/data/about";
-import React from "react";
+import { IAchievement } from '@/data/about/achievements';
+import React from 'react';
 
 interface Props {
   content: IAchievement;

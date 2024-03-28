@@ -1,17 +1,17 @@
-"use client";
-import React from "react";
-import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
-import Wrapper from "../components/layout/wrapper";
-import SwitchDark from "../components/switch/switch-dark";
-import Profile from "../components/profile";
-import Portfolio from "../components/portfolio/portfolio";
-import Address from "../components/address";
-import Social from "../components/social";
-import Contact from "../components/contact";
-import Blog from "../components/blog";
-import AboutMain from "../components/about";
-import SwitchLang from "../components/switch/switch-lang";
-import { useContent } from "../store/useContent";
+'use client';
+import React from 'react';
+import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
+import Wrapper from '../components/layout/wrapper';
+import SwitchDark from '../components/switch/switch-dark';
+import Profile from '../components/profile';
+import Portfolio from '../components/portfolio/portfolio';
+import Address from '../components/address';
+import Social from '../components/social';
+import Contact from '../components/contact';
+import Blog from '../components/blog';
+import AboutMain from '../components/about';
+import SwitchLang from '../components/switch/switch-lang';
+import { useContent } from '../store/useContent';
 
 const Home = () => {
   const { content } = useContent();
@@ -25,7 +25,7 @@ const Home = () => {
           <div className="header">
             <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
               {content.menu.map((item, i) => (
-                <Tab className={"icon-box"} key={i}>
+                <Tab className={'icon-box'} key={i}>
                   <i className={`fa ${item.icon}`}></i>
                   <h2>{item.menuName}</h2>
                 </Tab>
@@ -71,12 +71,13 @@ const Home = () => {
                 data-aos-duration="1200"
               >
                 <h1>
-                  my <span>portfolio</span>
+                  {content.portfolio.title}{' '}
+                  <span> {content.portfolio.title2}</span>
                 </h1>
-                <span className="title-bg">works</span>
+                <span className="title-bg"> {content.portfolio.subtitle}</span>
               </div>
               {/* End title */}
-              <Portfolio />
+              <Portfolio data={content.portfolio} />
             </TabPanel>
             {/* Portfolio Content Ends */}
 

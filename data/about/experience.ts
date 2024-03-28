@@ -21,7 +21,38 @@ export const experienceEs: IExperience = {
   btnLabel: 'Ver más',
   data: [
     {
-      year: '2023 • julio de 2023 - (actualidad)',
+      year: '2024 • enero de 2024 - (actualidad)',
+      position: 'Frontend Developer web3',
+      companyName: 'Membrane Labs · Jornada completa',
+      link: 'https://www.linkedin.com/company/membranelabs/mycompany/',
+      btn1: 'Ver más',
+      btn2: 'Ver menos',
+      details: `
+      • Membrane Labs ofrece servicios institucionales de activos digitales para transacciones OTC. Soy miembro del equipo encargado de diseñar y desarrollar servicios de liquidación e integraciones externas.
+      • Principales tecnologías y herramientas utilizadas: Typescript, React, Vite, ReactQuery, Mobx, MUI, Jira, Git, Github, Metodologías Ágiles, Figma.`,
+    },
+    {
+      year: '2024 • enero de 2024 - (actualidad)',
+      position: 'Frontend Blockchain Developer',
+      companyName: 'Rather Labs, Inc · Jornada completa',
+      link: 'https://www.linkedin.com/company/ratherlabs/mycompany/',
+      btn1: 'Ver más',
+      btn2: 'Ver menos',
+      details: `
+      • Crear interfaces intuitivas y atractivas. 
+      • Conectar la interfaz con la blockchain.
+      • Mostrar información clara de la blockchain.
+      • Implementar sistemas seguros de autenticación.
+      • Integrar soluciones de manejo de identidad descentralizadas.
+      • Desarrollar gráficos y visualizaciones en tiempo real.
+      • Mejorar la eficiencia y minimizar tiempos de carga.
+      • Implementar medidas de seguridad para proteger la información.
+      • Realizar pruebas exhaustivas y resolver problemas de integración.
+      • Crear documentación clara y completa.
+      • Realizar actualizaciones y mejoras constantes.`,
+    },
+    {
+      year: '2023 • julio de 2023 - enero de 2024',
       position: 'Lead Frontend Engineer',
       companyName: 'Oversoft · Jornada completa',
       link: 'https://www.linkedin.com/company/oversoft-sa/mycompany/',
@@ -252,7 +283,38 @@ export const experienceEn: IExperience = {
   btnLabel: 'See more',
   data: [
     {
-      year: '2023 • july 2023 - (current)',
+      year: '2024 • january 2024 - (current)',
+      position: 'Frontend Developer web3',
+      companyName: 'Membrane Labs · Full time',
+      link: 'https://www.linkedin.com/company/membranelabs/mycompany/',
+      btn1: 'See more',
+      btn2: 'See less',
+      details: `
+      • Membrane Labs offers institutional digital asset services for OTC transactions. I am a member of the team responsible for designing and developing settlement services and external integrations.
+      • Main technologies and tools used: Typescript, React, Vite, ReactQuery, Mobx, MUI, Jira, Git, Github, Agile Methodologies, Figma.`,
+    },
+    {
+      year: '2024 • january 2024 - (current)',
+      position: 'Frontend Blockchain Developer',
+      companyName: 'Rather Labs, Inc · Full time',
+      link: 'https://www.linkedin.com/company/ratherlabs/mycompany/',
+      btn1: 'See more',
+      btn2: 'See less',
+      details: `
+      • Create intuitive and attractive interfaces.
+      • Connect the interface with the blockchain.
+      • Display clear information from the blockchain.
+      • Implement secure authentication systems.
+      • Integrate decentralized identity management solutions.
+      • Develop real-time graphics and visualizations.
+      • Improve efficiency and minimize loading times.
+      • Implement security measures to protect information.
+      • Perform thorough testing and resolve integration issues.
+      • Create clear and comprehensive documentation.
+      • Make constant updates and improvements.`,
+    },
+    {
+      year: '2023 • july 2023 - january 2024',
       position: 'Lead Frontend Engineer',
       companyName: 'Oversoft · Full time',
       link: 'https://www.linkedin.com/company/oversoft-sa/mycompany/',

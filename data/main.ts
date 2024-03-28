@@ -1,13 +1,18 @@
-import { IAbout, aboutContentEn, aboutContentEs } from "./about";
-import { IMenuItem, menuItemEn, menuItemEs } from "./menu";
-import { profileContentEs, profileContentEn, IProfileContent } from "./profile";
-import { ISocialShare, socialShare } from "./social";
+import { IAbout, aboutContentEn, aboutContentEs } from './about';
+import { IMenuItem, menuItemEn, menuItemEs } from './menu';
+import {
+  IPortfolio,
+  PortfolioContentEn,
+  PortfolioContentEs,
+} from './portfolio';
+import { profileContentEs, profileContentEn, IProfileContent } from './profile';
+import { ISocialShare, socialShare } from './social';
 
 export interface IMainContent {
   menu: IMenuItem[];
   profile: IProfileContent;
   about: IAbout;
-  portfolio: {};
+  portfolio: IPortfolio;
   contact: {};
   blog: {};
   social: ISocialShare[];
@@ -18,7 +23,7 @@ export const mainContent = {
     menu: menuItemEn,
     profile: profileContentEn,
     about: aboutContentEn,
-    portfolio: {},
+    portfolio: PortfolioContentEn,
     contact: {},
     blog: {},
     social: socialShare,
@@ -27,7 +32,7 @@ export const mainContent = {
     menu: menuItemEs,
     profile: profileContentEs,
     about: aboutContentEs,
-    portfolio: {},
+    portfolio: PortfolioContentEs,
     contact: {},
     blog: {},
     social: socialShare,

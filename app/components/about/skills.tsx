@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "./styles/about.module.css";
-import { ISkill } from "@/data/about";
-import Image from "next/image";
+import React from 'react';
+import styles from './styles/about.module.css';
+import Image from 'next/image';
+import { ISkill } from '@/data/about/skills';
 
 interface Props {
   content: ISkill;
@@ -21,7 +21,7 @@ const Skills = ({ content }: Props) => {
             <div className={`${styles.skillContainer} c100 ${item.skillClass}`}>
               <div className={styles.image}>
                 <Image
-                  src={item?.image || ""}
+                  src={item?.image || ''}
                   alt={item.skillName}
                   width={70}
                   height={70}

@@ -51,7 +51,7 @@ html {
   --main-primary-color: #4169e1;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: #fff;
   font-weight: 500;
@@ -65,11 +65,11 @@ body {
 }
 
 .poppins-font {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .open-sans-font {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 img {
   max-width: 100%;
@@ -185,15 +185,15 @@ body.light .portfolio .slideshow ul > li:after {
   background: rgba(255, 255, 255, 0.77);
 }
 
-body.light .contact .contactform input[type="text"],
-body.light .contact .contactform input[type="email"],
+body.light .contact .contactform input[type='text'],
+body.light .contact .contactform input[type='email'],
 body.light .contact .contactform textarea {
   background-color: #fff;
   border: 1px solid #ddd;
   color: #666;
 }
-body.light .contact .contactform input[type="text"]:focus,
-body.light .contact .contactform input[type="email"]:focus,
+body.light .contact .contactform input[type='text']:focus,
+body.light .contact .contactform input[type='email']:focus,
 body.light .contact .contactform textarea:focus {
   background-color: #fff;
   border: 1px solid var(--main-primary-color);
@@ -413,7 +413,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 
 .button:before {
   z-index: -1;
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -679,7 +679,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .home .home-details h1:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 29px;
@@ -755,7 +755,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .about .box-stats h3:after {
-  content: "+";
+  content: '+';
   position: absolute;
   right: -24px;
   font-size: 33px;
@@ -768,7 +768,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .about .box-stats p:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 13px;
@@ -792,7 +792,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .about .resume-box li:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 20px;
@@ -847,7 +847,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 
 .about .resume-box .place:before {
   position: absolute;
-  content: "";
+  content: '';
   width: 10px;
   height: 2px;
   background-color: #fff;
@@ -1140,8 +1140,8 @@ body.light .contact .custom-span-contact a {
   border-radius: 50%;
 }
 /* Form */
-.contact .contactform input[type="text"],
-.contact .contactform input[type="email"] {
+.contact .contactform input[type='text'],
+.contact .contactform input[type='email'] {
   border: 1px solid #111;
   width: 100%;
   background: #252525;
@@ -1200,7 +1200,7 @@ body.light .contact .custom-span-contact a {
 
 .contact .contactform .output_message.success:before {
   font-family: FontAwesome;
-  content: "\f14a";
+  content: '\f14a';
   padding-right: 10px;
 }
 
@@ -1210,7 +1210,7 @@ body.light .contact .custom-span-contact a {
 
 .contact .contactform .output_message.error:before {
   font-family: FontAwesome;
-  content: "\f071";
+  content: '\f071';
   padding-right: 10px;
 }
 
@@ -1422,6 +1422,7 @@ body.light .contact .custom-span-contact a {
 
   .main-img-mobile {
     border-radius: 50%;
+    max-width: 60%;
     width: 270px;
     height: 270px;
     border: 4px solid #252525;
@@ -1530,7 +1531,7 @@ body.light .contact .custom-span-contact a {
 
   #menu li:after {
     position: absolute;
-    content: "";
+    content: '';
     height: 1px;
     width: calc(100% - 60px);
     background: #333;
@@ -1843,7 +1844,7 @@ body.light .contact .custom-span-contact a {
 
   &::after {
     position: absolute;
-    content: "";
+    content: '';
     top: 0px;
     left: 0px;
     background-color: #222;
@@ -2044,7 +2045,7 @@ button:focus {
     flex-direction: column;
     overflow: hidden;
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       background: var(--main-primary-color);
       width: 100%;

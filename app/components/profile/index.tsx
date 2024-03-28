@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import Image from "next/image";
-import { IProfileContent } from "@/data/profile";
-import styles from "./styles/profile.module.css";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import { IProfileContent } from '@/data/profile';
+import styles from './styles/profile.module.css';
 
 interface Props {
   profileContent: IProfileContent;
@@ -18,7 +18,15 @@ const Profile = ({ profileContent }: Props) => {
       <div className="row home-details-container align-items-center">
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
-          style={{ backgroundImage: `url(${profileContent.profileImage})` }}
+          style={{
+            backgroundImage: `url(${profileContent.profileImage})`,
+            marginTop: '20vh',
+            height: '50vh',
+            backgroundPosition: 'top center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            borderRadius: ' 10%',
+          }}
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
@@ -26,7 +34,7 @@ const Profile = ({ profileContent }: Props) => {
               src={profileContent.profileMobileImage}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="profile"
-              style={{ width: "100%", height: "100%" }}
+              style={{ width: '100%', height: '100%' }}
             />
             <h1 className="text-uppercase poppins-font">
               {profileContent.profileTitleName}.

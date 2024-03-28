@@ -1,12 +1,12 @@
-import React from "react";
-import Achievements from "./achievements";
-import Education from "./education";
-import Experience from "./experience";
-import PersonalInfo from "./personal-info";
-import Skills from "./skills";
-import ImgMobile from "@/public/assets/img/hero/profile-mobile.jpeg";
-import Image from "next/image";
-import { IAbout } from "@/data/about";
+import React from 'react';
+import Achievements from './achievements';
+import Education from './education';
+import Experience from './experience';
+import PersonalInfo from './personal-info';
+import Skills from './skills';
+import ImgMobile from '@/public/assets/img/hero/profile-mobile.jpeg';
+import Image from 'next/image';
+import { IAbout } from '@/data/about';
 
 interface Props {
   content: IAbout;
@@ -23,7 +23,7 @@ const AboutMe = ({ content }: Props) => {
             <div className="row">
               <div className="col-12">
                 <h3 className="text-uppercase custom-title mb-0 ft-wt-600">
-                  {content?.personalInfo.title || ""}
+                  {content?.personalInfo.title || ''}
                 </h3>
               </div>
               {/* End .col */}
@@ -43,7 +43,7 @@ const AboutMe = ({ content }: Props) => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href={"#"} download>
+                <a className="button" href={'#'} download>
                   <span className="button-text">
                     {content?.personalInfo.btnLabel}
                   </span>
@@ -111,9 +111,9 @@ const AboutMe = ({ content }: Props) => {
         <div data-aos="fade-up" data-aos-duration="1200">
           <div className="title-section text-center text-sm-center">
             <h1>
-              <span>{content.experience.title}</span>
+              <span>{content.education.title}</span>
             </h1>
-            <span className="title-bg">{content.experience.subtitle}</span>
+            <span className="title-bg">{content.education?.subtitle}</span>
           </div>
           {/* End title */}
         </div>

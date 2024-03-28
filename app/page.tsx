@@ -1,5 +1,7 @@
-import Wrapper from "./components/layout/wrapper";
-import Home from "./pages/home";
+'use client';
+
+import Wrapper from './components/layout/wrapper';
+import Home from './pages/home';
 
 export default function Page() {
   return (
