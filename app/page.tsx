@@ -1,12 +1,19 @@
 'use client';
-
-import Wrapper from './components/layout/wrapper';
-import Home from './pages/home';
+import dynamic from 'next/dynamic';
 
 export default function Page() {
+  const WrapperWithNoSSR = dynamic(
+    () => import('./components/layout/wrapper'),
+    { ssr: false }
+  );
+
+  const HomeWithNoSSR = dynamic(() => import('./pages/home'), {
+    ssr: false,
+  });
+
   return (
-    <Wrapper>
-      <Home />
-    </Wrapper>
+    <WrapperWithNoSSR>
+      <HomeWithNoSSR />
+    </WrapperWithNoSSR>
   );
 }

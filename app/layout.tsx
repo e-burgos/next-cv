@@ -1,12 +1,7 @@
-import { Metadata } from "next";
-import "@/styles/index.scss";
-import SEO from "./components/seo";
+'use client';
 
-export const metadata: Metadata = {
-  title: "Esteban Burgos CV",
-  description:
-    "This is my personal data, please contact me if you need more information.",
-};
+import '@/styles/index.scss';
+import SEO from './components/seo';
 
 export default function RootLayout({
   children,
