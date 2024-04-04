@@ -7,7 +7,7 @@ export default function Page() {
     { ssr: false }
   );
 
-  const HomeWithNoSSR = dynamic(() => import('./pages/home'), {
+  const HomeWithNoSSR = dynamic(() => import('./components/pages/home'), {
     ssr: false,
   });
 

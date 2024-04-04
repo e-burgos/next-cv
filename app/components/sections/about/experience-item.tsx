@@ -30,7 +30,7 @@ const ExperienceItem = ({ item }: Props) => {
           {item.companyName}
         </a>
       </div>
-      <p className="open-sans-font">
+      <p className="open-sans-font mb-3">
         {desc
           ? `${item.details.substring(0, 200)} ${
               item?.details?.length > 200 ? '...' : ''
@@ -38,7 +38,7 @@ const ExperienceItem = ({ item }: Props) => {
           : item.details}
       </p>
       <button
-        className={`btn btn-primary btn-sm mt-2`}
+        className={styles.button}
         onClick={() => setDesc(!desc)}
         disabled={item.details.length < 200}
       >

@@ -2,17 +2,17 @@
 
 import React from 'react';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
-import Wrapper from '../components/layout/wrapper';
-import SwitchDark from '../components/switch/switch-dark';
-import Profile from '../components/profile';
-import Portfolio from '../components/portfolio/portfolio';
-import Address from '../components/address';
-import Social from '../components/social';
-import Contact from '../components/contact';
-import Blog from '../components/blog';
-import AboutMain from '../components/about';
-import SwitchLang from '../components/switch/switch-lang';
-import { useContent } from '../store/useContent';
+import Wrapper from '../../layout/wrapper';
+import SwitchDark from '../../switch/switch-dark';
+import Profile from '../../sections/profile';
+import Portfolio from '../../sections/portfolio/portfolio';
+import Address from '../../sections/contact/address';
+import Social from '../../sections/contact/social';
+import Contact from '../../sections/contact';
+import Blog from '../../sections/blog';
+import AboutMain from '../../sections/about';
+import SwitchLang from '../../switch/switch-lang';
+import { useContent } from '../../../store/useContent';
 
 const Home = () => {
   const { content } = useContent();

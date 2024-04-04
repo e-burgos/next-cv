@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import Modal from "react-modal";
-import cancelImg from "../../../public/assets/img/cancel.svg";
-import blogQuote from "../../../public/assets/img/blog/quote.svg";
-import Image from "next/image";
-import useBlogData from "../../hooks/useBlogData";
+import React, { useEffect } from 'react';
+import Modal from 'react-modal';
+import cancelImg from '../../../../public/assets/img/cancel.svg';
+import blogQuote from '../../../../public/assets/img/blog/quote.svg';
+import Image from 'next/image';
+import useBlogData from '../../../hooks/useBlogData';
 
 const Blog = () => {
   const { singleData, isOpen, setIsOpen, blogsData, handleBlogsData } =
@@ -12,7 +12,7 @@ const Blog = () => {
     handleBlogsData(id);
   };
   useEffect(() => {
-    Modal.setAppElement("#modal");
+    Modal.setAppElement('#modal');
   }, []);
   return (
     <>

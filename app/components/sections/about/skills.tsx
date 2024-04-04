@@ -9,7 +9,8 @@ interface Props {
 
 const Skills = ({ content }: Props) => {
   return (
-    <div className="row mt-4">
+    <div data-aos="fade-down" data-aos-duration="1200" className="row mt-2">
+      <hr className="separator mt-1" />
       <div className="col-12">
         <h3 className="text-uppercase text-center pb-4 pb-sm-5 mb-3 mb-sm-0 text-start text-sm-center custom-title ft-wt-600">
           {content.subtitle}

@@ -43,7 +43,7 @@ const AboutMe = ({ content }: Props) => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href={'#'} download>
+                <a className="button" href={'/pdf-viewer'} target="_blank">
                   <span className="button-text">
                     {content?.personalInfo.btnLabel}
                   </span>

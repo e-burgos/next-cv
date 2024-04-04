@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import CloseImg from '../../../../../public/assets/img/cancel.svg';
+import CloseImg from '../../../../../../public/assets/img/cancel.svg';
 import { IPortfolioData } from '@/data/portfolio';
 import Slider from 'react-slick';
 import { useLanguage } from '@/app/store/useLanguage';

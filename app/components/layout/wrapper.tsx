@@ -1,8 +1,8 @@
-"use client";
-import Aos from "aos";
-import React, { FunctionComponent, useEffect } from "react";
-import AnimatedCursor from "react-animated-cursor";
-import { ToastContainer } from "react-toastify";
+'use client';
+import Aos from 'aos';
+import React, { FunctionComponent, useEffect } from 'react';
+import AnimatedCursor from 'react-animated-cursor';
+import { ToastContainer } from 'react-toastify';
 
 interface Props {
   children: React.ReactNode;

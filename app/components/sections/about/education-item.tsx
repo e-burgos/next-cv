@@ -67,7 +67,7 @@ const EducationItem = ({ item }: Props) => {
           </a>
         </div>
       </div>
-      <p className="open-sans-font">
+      <p className="open-sans-font mb-3">
         {desc
           ? `${item.details.substring(0, 200)} ${
               item?.details?.length > 200 ? '...' : ''
@@ -76,7 +76,7 @@ const EducationItem = ({ item }: Props) => {
       </p>
 
       <button
-        className={`btn btn-primary btn-sm mt-2`}
+        className={styles.button}
         onClick={() => setDesc(!desc)}
         disabled={item.details.length < 200}
       >

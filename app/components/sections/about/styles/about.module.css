@@ -41,6 +41,7 @@
   position: relative;
   text-decoration: none;
   padding-left: 0px;
+  color: var(--main-primary-color);
 }
 
 .experienceLink:hover {
@@ -53,10 +54,11 @@
   position: relative;
   text-decoration: none;
   padding-left: 0px;
+  color: var(--main-primary-color);
 }
 
 .experienceLinkLight:hover {
-  color: var(--bs-dark);
+  color: var(--main-secondary-color);
 }
 
 .row {
@@ -65,4 +67,34 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-primary-color);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  max-width: 250px;
+  width: fit-content;
+  box-sizing: border-box;
+  height: 35px;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 1px solid var(--main-secondary-color);
+  color: var(--main-secondary-color);
+  font-weight: 700;
+}
+.button:disabled {
+  background-color: #25252550;
+  border: none;
+  color: #ffffff50;
+  font-weight: 700;
+  cursor: not-allowed !important;
 }

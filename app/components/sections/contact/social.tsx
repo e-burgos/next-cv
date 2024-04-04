@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { useContent } from '../store/useContent';
+import { useContent } from '../../../store/useContent';
 
 const Social = () => {
   const { content } = useContent();

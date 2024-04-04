@@ -23,8 +23,9 @@
 }
 
 .button:hover {
-  background-color: var(--main-secondary-color);
+  background-color: transparent;
   border: 1px solid var(--main-primary-color);
+  color: var(--main-primary-color);
 }
 
 @media screen and (max-width: 768px) {
