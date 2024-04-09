@@ -4,15 +4,20 @@ import Education from './education';
 import Experience from './experience';
 import PersonalInfo from './personal-info';
 import Skills from './skills';
-import ImgMobile from '@/public/assets/img/hero/profile-mobile.jpeg';
+import ImgMobileDark from '@/public/assets/img/hero/profile-dark.jpeg';
+import ImgMobileLight from '@/public/assets/img/hero/profile-light.jpeg';
 import Image from 'next/image';
 import { IAbout } from '@/data/about';
+import { useTheme } from '@/app/store/useTheme';
+import PdfButtonDownload from '../../pages/pdf-viewer/pdf-tools/pdf-button-download';
 
 interface Props {
   content: IAbout;
 }
 
 const AboutMe = ({ content }: Props) => {
+  const mobileWidth = window && window?.innerWidth < 768;
+  const { themeColor } = useTheme();
   return (
     <section className="main-content ">
       <div className="container">
@@ -30,7 +35,7 @@ const AboutMe = ({ content }: Props) => {
 
               <div className="col-12 d-block d-sm-none">
                 <Image
-                  src={ImgMobile}
+                  src={themeColor === 'dark' ? ImgMobileDark : ImgMobileLight}
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
                 />
@@ -43,12 +48,15 @@ const AboutMe = ({ content }: Props) => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href={'/pdf-viewer'} target="_blank">
-                  <span className="button-text">
-                    {content?.personalInfo.btnLabel}
-                  </span>
-                  <span className="button-icon fa fa-download"></span>
-                </a>
+                {!mobileWidth && (
+                  <a className="button" href={'/pdf-viewer'} target="_blank">
+                    <span className="button-text">
+                      {content?.personalInfo.btnLabel}
+                    </span>
+                    <span className="button-icon fa fa-download"></span>
+                  </a>
+                )}
+                {mobileWidth && <PdfButtonDownload />}
               </div>
               {/* End download button */}
             </div>

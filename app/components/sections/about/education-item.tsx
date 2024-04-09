@@ -12,18 +12,6 @@ const EducationItem = ({ item }: Props) => {
   const [desc, setDesc] = useState<boolean>(true);
 
   return (
-    // <li className="col-lg-6">
-    //   <div className="icon">
-    //     <i className="fa fa-book"></i>
-    //   </div>
-    //   <span className="time open-sans-font text-uppercase">{item.year}</span>
-    //   <h5 className="poppins-font text-uppercase">
-    //     {item.degree}
-    //     <span className="place open-sans-font">{item.institute}</span>
-    //   </h5>
-    //   <p className="open-sans-font">{item.details}</p>
-    // </li>
-
     <li className="col-lg-6">
       <div className="icon">
         <i className="fa fa-briefcase"></i>

@@ -204,18 +204,11 @@ export const educationEs: IEducation = {
       infoLabel: 'Información del Curso',
       infoLink:
         'https://learn.oracle.com/pls/web_prod-plq-dad/view_pdf?c_org_id=51&c_lang=E&c_id=D17218CS30',
-      details: `Obtendrá los conocimientos fundamentales de SQL y PL/SQL mediante SQL Developer en Linux. Este curso ofrece a
-      los estudiantes una introducción a la tecnología de la base de datos Oracle Database 10g. En esta clase, los
-      estudiantes aprenden los conceptos relativos a las bases de datos relacionales y el potente lenguaje de programación
-      SQL. Este curso proporciona los conocimientos de SQL esenciales que permiten a los desarrolladores escribir
-      consultas en una o varias tablas, manipular los datos de las tablas, crear objetos de base de datos y realizar consultas
-      de metadatos.Además, el curso ofrece una introducción a PL/SQL y ayuda a que los estudiantes comprendan las
-      ventajas de este potente lenguaje de programación. En la clase, los estudiantes aprenderán a crear bloques PL/SQL de
-      código de aplicación que se pueden compartir en varias pantallas, informes y aplicaciones de gestión de datos. Los
-      estudiantes aprenderán a crear bloques PL/SQL anónimos y se les presentarán las funciones y los procedimientos
-      almacenados. Aprenderán a declarar variables y detectar excepciones, así como a declarar y controlar cursores. Este
-      curso es una combinación de los cursos Oracle Database 10g: Conceptos Fundamentales de SQL I y Oracle Database
-      10g: Conceptos Fundamentales de PL/SQL.`,
+      details: `Obtendrá los conocimientos fundamentales de SQL y PL/SQL mediante SQL Developer en Linux. Este curso ofrece a los estudiantes una introducción a la tecnología de la base de datos Oracle Database 10g. En esta clase, los estudiantes aprenden los conceptos relativos a las bases de datos relacionales y el potente lenguaje de programación SQL. 
+      Este curso proporciona los conocimientos de SQL esenciales que permiten a los desarrolladores escribir consultas en una o varias tablas, manipular los datos de las tablas, crear objetos de base de datos y realizar consultas de metadatos.
+      Además, el curso ofrece una introducción a PL/SQL y ayuda a que los estudiantes comprendan las ventajas de este potente lenguaje de programación. En la clase, los estudiantes aprenderán a crear bloques PL/SQL de código de aplicación que se pueden compartir en varias pantallas, informes y aplicaciones de gestión de datos. 
+      Los estudiantes aprenderán a crear bloques PL/SQL anónimos y se les presentarán las funciones y los procedimientos almacenados. 
+      Aprenderán a declarar variables y detectar excepciones, así como a declarar y controlar cursores. Este curso es una combinación de los cursos Oracle Database 10g: Conceptos Fundamentales de SQL I y Oracle Database 10g: Conceptos Fundamentales de PL/SQL.`,
     },
     {
       btn1: 'Ver más',

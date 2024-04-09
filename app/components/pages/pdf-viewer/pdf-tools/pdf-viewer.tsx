@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
 import { PDFViewer } from '@react-pdf/renderer';
-import Print from '.';
-import { useContent } from '../../../store/useContent';
+import Resume from '..';
+import { useContent } from '../../../../store/useContent';
 
 const PdfViewer = () => {
   const { content } = useContent();
@@ -14,7 +14,7 @@ const PdfViewer = () => {
         height: '100vh',
       }}
     >
-      <Print data={content} />
+      <Resume content={content} />
     </PDFViewer>
   );
 };

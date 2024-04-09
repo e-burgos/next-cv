@@ -1,14 +1,14 @@
 'use client';
 import React from 'react';
-import Print from '.';
-import { useContent } from '../../../store/useContent';
+import { useContent } from '../../../../store/useContent';
 import { PDFDownloadLink } from '@react-pdf/renderer';
+import Resume from '..';
 
 const PdfButtonDownload = () => {
   const { content } = useContent();
   return (
     <PDFDownloadLink
-      document={<Print data={content} />}
+      document={<Resume content={content} />}
       fileName="esteban-burgos.pdf"
       className="button"
     >

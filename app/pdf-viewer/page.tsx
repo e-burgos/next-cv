@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 
 export default function Page() {
   const PdfViewerWithNoSSR = dynamic(
-    () => import('../components/pages/print/pdf-viewer'),
+    () => import('../components/pages/pdf-viewer/pdf-tools/pdf-viewer'),
     {
       ssr: false,
     }

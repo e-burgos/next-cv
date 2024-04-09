@@ -25,6 +25,9 @@ import Quiz from '@/public/assets/img/portfolio/quiz.png';
 import Quiz2 from '@/public/assets/img/portfolio/quiz2.png';
 import MembraneLabs from '@/public/assets/img/portfolio/membrane.jpeg';
 import Celesi from '@/public/assets/img/portfolio/celesi.png';
+import CustomStorybook from '@/public/assets/img/portfolio/custom-storybook.png';
+import OversoftStorybook from '@/public/assets/img/portfolio/oversoft-storybook.png';
+import Santander from '@/public/assets/img/portfolio/santander.png';
 
 import { StaticImageData } from 'next/image';
 
@@ -35,7 +38,8 @@ export type ITag =
   | 'Featured'
   | 'Microfrontends'
   | 'React JS'
-  | 'UI'
+  | 'UI/UX'
+  | 'Storybook'
   | 'React Native'
   | 'Wordpress'
   | 'E-commerce'
@@ -46,7 +50,7 @@ export type ITag =
   | 'Next JS'
   | 'Gatsby JS'
   | 'Node JS'
-  | 'Web3 / Blockchain'
+  | 'Web3/Blockchain'
   | 'GraphQL'
   | 'Mongo DB'
   | 'Vite JS'
@@ -109,7 +113,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'FullStack Website',
         client: 'POC',
         language:
-          'HTML, CSS, Javascript, React JS, Tailwind CSS, React Query, Webpack 5, Module Federation Plugin',
+          'Typescript, HTML, CSS, Javascript, React JS, Tailwind CSS, React Query, Webpack 5, Module Federation Plugin',
         preview: 'Demo',
         link: 'https://react-query-mf.vercel.app/',
         repoLink: 'https://github.com/e-burgos/react-query-mf',
@@ -138,7 +142,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'FullStack Website',
         client: 'Telefonica',
         language:
-          'Next JS, Zustand, React Query, Webpack 5, React Native, Node JS, Storybook',
+          'Typescript, Next JS, Zustand, React Query, Webpack 5, React Native, Node JS, Storybook',
         preview: 'Mi Movistar',
         link: 'https://app.movistar.com.ar/',
         repoLink: '#',
@@ -157,7 +161,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
       'All',
       'Todos',
       'Vite JS',
-      'Web3 / Blockchain',
+      'Web3/Blockchain',
       'DApp',
       'MUI',
     ],
@@ -169,7 +173,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'DApp / WebApp',
         client: 'Membrane Labs',
         language:
-          'Vite JS, Material UI, Responsive Design, Web3, Blockchain, React Query, Zustand, Jira, Git, Github, Metodologías Ágiles, Figma.',
+          'Typescript, Vite JS, Material UI, Responsive Design, Web3, Blockchain, React Query, Zustand, Jira, Git, Github, Metodologías Ágiles, Figma.',
         preview: 'Website',
         link: 'https://membranelabs.com/',
         accessType: 'restricted',
@@ -196,7 +200,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'WebApp',
         client: 'Celesi, Capstone Side',
         language:
-          'Next JS, Module CSS, Responsive Design, React Query, Zustand, Jira, Git, Github, Metodologías Ágiles, Figma.',
+          'Typescript, Next JS, Module CSS, Responsive Design, React Query, Zustand, Jira, Git, Github, Metodologías Ágiles, Figma.',
         preview: 'Website',
         link: 'https://gazeta-next-alpha.vercel.app/',
         accessType: 'restricted',
@@ -214,7 +218,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
       'All',
       'Todos',
       'Next JS',
-      'Web3 / Blockchain',
+      'Web3/Blockchain',
       'WebApp',
     ],
     delayAnimation: '200',
@@ -223,7 +227,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'WebaApp',
         client: 'Coolco',
         language:
-          'Next JS, React Query, Zustand, Module CSS, Responsive Design, Web3, Blockchain',
+          'Typescript, Next JS, React Query, Zustand, Module CSS, Responsive Design, Web3, Blockchain',
         preview: 'Website',
         link: 'https://www.coolco.io/',
         accessType: 'restricted',
@@ -244,7 +248,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
       'Todos',
       'React JS',
       'MUI',
-      'Web3 / Blockchain',
+      'Web3/Blockchain',
       'Landing Page',
     ],
     delayAnimation: '200',
@@ -256,7 +260,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'Landing Page',
         client: 'Apes International Group',
         language:
-          'React JS, MUI, Responsive Design, Lottie, React Scroll, React Router',
+          'Typescript, React JS, MUI, Responsive Design, Lottie, React Scroll, React Router',
         preview: 'Website',
         link: 'https://www.sugarkingdom.io/',
         repoLink:
@@ -276,7 +280,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
       'All',
       'Todos',
       'React JS',
-      'Web3 / Blockchain',
+      'Web3/Blockchain',
       'Vite JS',
       'DApp',
     ],
@@ -289,7 +293,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'DApp / WebApp',
         client: 'Apes International Group',
         language:
-          'Vite JS, Ethers JS, Zustand, React Query, Xerial Wallet SDK, Responsive Design, Unity, Web3, Blockchain',
+          'Typescript, Vite JS, Ethers JS, Zustand, React Query, Xerial Wallet SDK, Responsive Design, Unity, Web3, Blockchain',
         preview: 'Game',
         link: 'https://game.sugarkingdom.io/',
         repoLink:
@@ -309,7 +313,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
       'All',
       'Todos',
       'Next JS',
-      'Web3 / Blockchain',
+      'Web3/Blockchain',
       'DApp',
     ],
     delayAnimation: '200',
@@ -318,7 +322,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'DApp / WebApp',
         client: 'Apes International Group',
         language:
-          'Next JS, Tailwind CSS, Responsive Design, Web3, Blockchain, Ethers JS, Team Finance',
+          'Typescript, Next JS, Tailwind CSS, Responsive Design, Web3, Blockchain, Ethers JS, Team Finance',
         preview: 'Staking Page',
         link: 'https://staking.sugarkingdom.io/',
         repoLink:
@@ -350,7 +354,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'FullStack WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, Gatsby JS, Strapi, GraphQL, Heroku, Netlify',
+          'Typescript, HTML, CSS, Javascript, Gatsby JS, Strapi, GraphQL, Heroku, Netlify',
         preview: 'Demo',
         link: 'https://eburgos-gatsby-cv.netlify.app/',
         repoLink: 'https://github.com/e-burgos/cv-gatsby',
@@ -410,7 +414,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'Landing Page',
         client: 'Gogrow',
         language:
-          'HTML, CSS, Javascript, React JS, Styled Components, Responsive Design',
+          'Typescript, HTML, CSS, Javascript, React JS, Styled Components, Responsive Design',
         preview: 'Website',
         link: 'https://gogrow-challenge.netlify.app',
         repoLink: 'https://github.com/e-burgos/gogrow-challenge/',
@@ -424,14 +428,14 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 13,
     type: 'NextJS Challenge Sample Survey Web3',
     image: Quiz,
-    tag: ['All', 'Todos', 'Next JS', 'Web3 / Blockchain', 'DApp', 'MUI'],
+    tag: ['All', 'Todos', 'Next JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalDetails: [
       {
         project: 'DApp / WebApp',
         client: 'Rather Labs',
         language:
-          'Next JS, Material UI, Responsive Design, Web3, Blockchain, Ethers JS, Web3Modal',
+          'Typescript, Next JS, Material UI, Responsive Design, Web3, Blockchain, Ethers JS, Web3Modal',
         preview: 'Challenge',
         link: 'https://blockchain-nextjs-quiz.vercel.app/',
         repoLink: 'https://github.com/e-burgos/blockchain-quiz',
@@ -454,14 +458,14 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 14,
     type: 'ViteJS Challenge Sample Survey Web3',
     image: Quiz2,
-    tag: ['All', 'Todos', 'Vite JS', 'Web3 / Blockchain', 'DApp', 'MUI'],
+    tag: ['All', 'Todos', 'Vite JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalDetails: [
       {
         project: 'DApp / WebApp',
         client: 'Rather Labs',
         language:
-          'Vite JS, Material UI, Responsive Design, Web3, Blockchain, Ethers JS, Web3Modal',
+          'Typescript, Vite JS, Material UI, Responsive Design, Web3, Blockchain, Ethers JS, Web3Modal',
         preview: 'Challenge',
         link: 'https://membrane-frontend-cc-eburgos.vercel.app/',
         repoLink: 'https://github.com/e-burgos/membrane-frontend-cc',
@@ -567,7 +571,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, React JS, API REST, Axios, Styled Components',
+          'Typescript, HTML, CSS, Javascript, React JS, API REST, Axios, Styled Components',
         preview: 'Demo',
         link: 'https://criptomonedas-eburgos.netlify.app/',
         repoLink: 'https://github.com/e-burgos/cotizador-criptomonedas',
@@ -588,7 +592,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, React JS, API REST, Axios, Styled Components',
+          'Typescript, HTML, CSS, Javascript, React JS, API REST, Axios, Styled Components',
         preview: 'Demo',
         link: 'https://tragos-eburgos.netlify.app/',
         repoLink: 'https://github.com/e-burgos/bebidas',
@@ -609,7 +613,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'FullStack WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, React JS, Node JS, Express JS, MongoDB, Heroku, Netlify',
+          'Typescript, HTML, CSS, Javascript, React JS, Node JS, Express JS, MongoDB, Heroku, Netlify',
         preview: 'Demo',
         link: 'https://merntasks-eburgos.netlify.app/',
         repoLink: 'https://github.com/e-burgos/mern-tasks-react',
@@ -631,7 +635,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'FullStack WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, React JS, Node JS, Express JS, MongoDB, Heroku, Netlify, Multer, JWT, bcrypt',
+          'Typescript, HTML, CSS, Javascript, React JS, Node JS, Express JS, MongoDB, Heroku, Netlify, Multer, JWT, bcrypt',
         preview: 'Demo',
         link: 'https://nodesend-next.vercel.app/',
         repoLink: 'https://github.com/e-burgos/nodesend-next',
@@ -652,7 +656,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'Aplicación Móvil',
         client: 'Demo',
         language:
-          'React Native, Android, iOS, Animated, Lottie, React Navigation, React Native Paper',
+          'Typescript, React Native, Android, iOS, Animated, Lottie, React Navigation, React Native Paper',
         preview: 'Demo',
         link: 'https://github.com/e-burgos/react-native-animated/tree/master/apk',
         repoLink: 'https://github.com/e-burgos/react-native-animated',
@@ -672,13 +676,12 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'Aplicación Móvil',
         client: 'Demo',
         language:
-          'React Native, Android, iOS, Animated, Lottie, React Navigation, React Native Paper',
+          'Typescript, React Native, Android, iOS, Animated, Lottie, React Navigation, React Native Paper',
         preview: 'Demo',
         link: 'https://github.com/e-burgos/react-native-weather/tree/master/apk',
         repoLink: 'https://github.com/e-burgos/react-native-weather',
         accessType: 'public',
-        details: `Ejemplo de app en react native que consulta información de la api de openweathermap.org
-        `,
+        details: `Ejemplo de app en react native que consulta información de la api de openweathermap.org.`,
       },
     ],
   },
@@ -692,13 +695,12 @@ export const PortfolioDataEs: IPortfolioData[] = [
       {
         project: 'WebApp',
         client: 'Demo',
-        language: 'React JS, API REST, Axios, Styled Components',
+        language: 'Typescript, React JS, API REST, Axios, Styled Components',
         preview: 'Demo',
         link: 'https://clima-eburgos.netlify.app/',
         repoLink: 'https://github.com/e-burgos/react-native-weather',
         accessType: 'public',
-        details: `Ejemplo de webapp que consulta información de la api de openweathermap.org
-        `,
+        details: `Ejemplo de webapp que consulta información de la api de openweathermap.org.`,
       },
     ],
   },
@@ -713,13 +715,12 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'Aplicación Móvil',
         client: 'Demo',
         language:
-          'React Native, Android, iOS, Animated, React Navigation, React Native Paper',
+          'Typescript, React Native, Android, iOS, Animated, React Navigation, React Native Paper',
         preview: 'Demo',
         link: 'https://github.com/e-burgos/react-native-citas/tree/master/apk',
         repoLink: 'https://github.com/e-burgos/react-native-citas',
         accessType: 'public',
-        details: `Simple ejemplo en react native para listar citas de mascotas y almacenarlas en el almacenamiento interno del equipo móvil.
-        `,
+        details: `Simple ejemplo en react native para listar citas de mascotas y almacenarlas en el almacenamiento interno del equipo móvil.`,
       },
     ],
   },
@@ -734,13 +735,79 @@ export const PortfolioDataEs: IPortfolioData[] = [
         project: 'Aplicación Móvil',
         client: 'Demo',
         language:
-          'React Native, Android, iOS, Animated, React Navigation, React Native Paper, Axios, API REST',
+          'Typescript, React Native, Android, iOS, Animated, React Navigation, React Native Paper, Axios, API REST',
         preview: 'Demo',
         link: 'https://github.com/e-burgos/react-native-criptomonedas/tree/master/apk',
         repoLink: 'https://github.com/e-burgos/react-native-criptomonedas',
         accessType: 'public',
-        details: `Simple ejemplo en react native del consumo de una API de criptomonedas.
-        `,
+        details: `Simple ejemplo en react native del consumo de una API de criptomonedas.`,
+      },
+    ],
+  },
+  {
+    id: 28,
+    type: 'CUSTOM STORYBOOK',
+    image: CustomStorybook,
+    tag: ['Destacados', 'Featured', 'All', 'Todos', 'UI/UX', 'Storybook'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Librería de Componentes',
+        client: 'Santander Río',
+        language:
+          'Typescript, Storybook, React JS, Jest Testing Library, Styled Components, Cromatic',
+        preview: 'Cromatic',
+        link: 'https://63152ba2c41e0fd827079fb4-vagoymxsgw.chromatic.com',
+        repoLink: 'https://github.com/e-burgos/custom-storybook',
+        accessType: 'public',
+        details: `Librería de componentes demostrativa desarrollada para el banco Santander Río. La misma fue desarrollada con Storybook, Styled Components y Jest Testing Library. Se utilizó Chromatic para la revisión visual de los componentes.`,
+      },
+    ],
+  },
+  {
+    id: 29,
+    type: 'OVERSOFT STORYBOOK',
+    image: OversoftStorybook,
+    tag: ['Destacados', 'Featured', 'All', 'Todos', 'UI/UX', 'Storybook'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Librería de Componentes',
+        client: 'Oversoft SA',
+        language:
+          'Typescript, Storybook, React JS, Jest Testing Library, Styled Components, Cromatic',
+        preview: 'Cromatic',
+        link: 'https://64a6dbac61ad3a417c9476a7-lbluasacmt.chromatic.com',
+        repoLink: 'https://github.com/e-burgos/storybook-oversoft',
+        accessType: 'public',
+        details: `Librería de componentes inicial desarrollada para la empresa Oversoft. La misma fue desarrollada con Storybook, Styled Components y Jest Testing Library. Se utilizó Chromatic para la revisión visual de los componentes.`,
+      },
+    ],
+  },
+  {
+    id: 30,
+    type: 'BANCO SANTANDER RIO',
+    image: Santander,
+    tag: [
+      'Destacados',
+      'Featured',
+      'All',
+      'Todos',
+      'WebApp',
+      'React JS',
+      'Next JS',
+    ],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Sistemas de gestión',
+        client: 'Santander Río',
+        language:
+          'Typescript, Next JS, React JS, Jest Testing Library, Styled Components, MUI, React Query, Zustand, Axios, Typescript',
+        preview: 'Website',
+        link: 'https://www.santander.com.ar/personas',
+        accessType: 'restricted',
+        details: `Desarrollo de sistemas internos de gestión para el banco Santander Río. Sistema de tickets y sistema de gestión de usuarios. Colaboración en el desarrollo de la web institucional del banco. Desarrollo de una propia UI.`,
       },
     ],
   },
@@ -758,7 +825,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'FullStack Website',
         client: 'POC',
         language:
-          'HTML, CSS, Javascript, React JS, Tailwind CSS, React Query, Webpack 5, Module Federation Plugin',
+          'Typescript, HTML, CSS, Javascript, React JS, Tailwind CSS, React Query, Webpack 5, Module Federation Plugin',
         preview: 'Demo',
         link: 'https://react-query-mf.vercel.app/',
         repoLink: 'https://github.com/e-burgos/react-query-mf',
@@ -786,7 +853,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'FullStack Website',
         client: 'Telefonica',
         language:
-          'Next JS, Zustand, React Query, Webpack 5, React Native, Node JS, Storybook',
+          'Typescript, Next JS, Zustand, React Query, Webpack 5, React Native, Node JS, Storybook',
         preview: 'Mi Movistar',
         link: 'https://app.movistar.com.ar/',
         repoLink: '#',
@@ -804,7 +871,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
       'All',
       'Todos',
       'Vite JS',
-      'Web3 / Blockchain',
+      'Web3/Blockchain',
       'DApp',
       'MUI',
     ],
@@ -816,7 +883,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'DApp / WebApp',
         client: 'Membrane Labs',
         language:
-          'Vite JS, Material UI, Responsive Design, Web3, Blockchain, React Query, Zustand, Jira, Git, Github, Agile Methodologies, Figma.',
+          'Typescript, Vite JS, Material UI, Responsive Design, Web3, Blockchain, React Query, Zustand, Jira, Git, Github, Agile Methodologies, Figma.',
         preview: 'Website',
         link: 'https://membranelabs.com/',
         accessType: 'restricted',
@@ -836,7 +903,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'WebApp',
         client: 'Celesi, Capstone Side',
         language:
-          'Next JS, Module CSS, Responsive Design, React Query, Zustand, Jira, Git, Github, Agile Methodologies, Figma.',
+          'Typescript, Next JS, Module CSS, Responsive Design, React Query, Zustand, Jira, Git, Github, Agile Methodologies, Figma.',
         preview: 'Website',
         link: 'https://gazeta-next-alpha.vercel.app/',
         accessType: 'restricted',
@@ -848,14 +915,14 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 5,
     type: 'Coolco',
     image: Coolco,
-    tag: ['Featured', 'All', 'Todos', 'Next JS', 'Web3 / Blockchain', 'WebApp'],
+    tag: ['Featured', 'All', 'Todos', 'Next JS', 'Web3/Blockchain', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
         project: 'WebaApp',
         client: 'Coolco',
         language:
-          'Next JS, React Query, Zustand, Module CSS, Responsive Design, Web3, Blockchain',
+          'Typescript, Next JS, React Query, Zustand, Module CSS, Responsive Design, Web3, Blockchain',
         preview: 'Website',
         link: 'https://www.coolco.io/',
         accessType: 'restricted',
@@ -875,7 +942,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
       'Todos',
       'React JS',
       'MUI',
-      'Web3 / Blockchain',
+      'Web3/Blockchain',
       'Landing Page',
     ],
     delayAnimation: '200',
@@ -887,7 +954,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'Landing Page',
         client: 'Apes International Group',
         language:
-          'React JS, MUI, Responsive Design, Lottie, React Scroll, React Router',
+          'Typescript, React JS, MUI, Responsive Design, Lottie, React Scroll, React Router',
         preview: 'Website',
         link: 'https://www.sugarkingdom.io/',
         repoLink: '',
@@ -905,7 +972,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
       'All',
       'Todos',
       'React JS',
-      'Web3 / Blockchain',
+      'Web3/Blockchain',
       'Vite JS',
       'DApp',
     ],
@@ -918,7 +985,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'DApp / WebApp',
         client: 'Apes International Group',
         language:
-          'Vite JS, Ethers JS, Zustand, React Query, Xerial Wallet SDK, Responsive Design, Unity, Web3, Blockchain',
+          'Typescript, Vite JS, Ethers JS, Zustand, React Query, Xerial Wallet SDK, Responsive Design, Unity, Web3, Blockchain',
         preview: 'Game',
         link: 'https://game.sugarkingdom.io/',
         repoLink: '',
@@ -931,14 +998,14 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 8,
     type: 'Sugar Kingdom Odyssey Staking Dapp',
     image: SugarStaking,
-    tag: ['Featured', 'All', 'Todos', 'Next JS', 'Web3 / Blockchain', 'DApp'],
+    tag: ['Featured', 'All', 'Todos', 'Next JS', 'Web3/Blockchain', 'DApp'],
     delayAnimation: '200',
     modalDetails: [
       {
         project: 'DApp / WebApp',
         client: 'Apes International Group',
         language:
-          'Next JS, Tailwind CSS, Responsive Design, Web3, Blockchain, Ethers JS, Team Finance',
+          'Typescript, Next JS, Tailwind CSS, Responsive Design, Web3, Blockchain, Ethers JS, Team Finance',
         preview: 'Staking Page',
         link: 'https://staking.sugarkingdom.io/',
         repoLink: '',
@@ -969,7 +1036,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'FullStack WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, Gatsby JS, Strapi, GraphQL, Heroku, Netlify',
+          'Typescript, HTML, CSS, Javascript, Gatsby JS, Strapi, GraphQL, Heroku, Netlify',
         preview: 'Demo',
         link: 'https://eburgos-gatsby-cv.netlify.app/',
         repoLink: 'https://github.com/e-burgos/cv-gatsby',
@@ -1029,7 +1096,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'Landing Page',
         client: 'Gogrow',
         language:
-          'HTML, CSS, Javascript, React JS, Styled Components, Responsive Design',
+          'Typescript, HTML, CSS, Javascript, React JS, Styled Components, Responsive Design',
         preview: 'Website',
         link: 'https://gogrow-challenge.netlify.app',
         repoLink: 'https://github.com/e-burgos/gogrow-challenge/',
@@ -1044,14 +1111,14 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 13,
     type: 'NextJS Challenge Sample Survey Web3',
     image: Quiz,
-    tag: ['All', 'Todos', 'Next JS', 'Web3 / Blockchain', 'DApp', 'MUI'],
+    tag: ['All', 'Todos', 'Next JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalDetails: [
       {
         project: 'DApp / WebApp',
         client: 'Rather Labs',
         language:
-          'Next JS, Material UI, Responsive Design, Web3, Blockchain, Ethers JS, Web3Modal',
+          'Typescript, Next JS, Material UI, Responsive Design, Web3, Blockchain, Ethers JS, Web3Modal',
         preview: 'Challenge',
         link: 'https://blockchain-nextjs-quiz.vercel.app/',
         repoLink: 'https://github.com/e-burgos/blockchain-quiz',
@@ -1074,14 +1141,14 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 14,
     type: 'ViteJS Challenge Sample Survey Web3',
     image: Quiz2,
-    tag: ['All', 'Todos', 'Vite JS', 'Web3 / Blockchain', 'DApp', 'MUI'],
+    tag: ['All', 'Todos', 'Vite JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalDetails: [
       {
         project: 'DApp / WebApp',
         client: 'Rather Labs',
         language:
-          'Vite JS, Material UI, Responsive Design, Web3, Blockchain, Ethers JS, Web3Modal',
+          'Typescript, Vite JS, Material UI, Responsive Design, Web3, Blockchain, Ethers JS, Web3Modal',
         preview: 'Challenge',
         link: 'https://membrane-frontend-cc-eburgos.vercel.app/',
         repoLink: 'https://github.com/e-burgos/membrane-frontend-cc',
@@ -1190,7 +1257,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, React JS, API REST, Axios, Styled Components',
+          'Typescript, HTML, CSS, Javascript, React JS, API REST, Axios, Styled Components',
         preview: 'Demo',
         link: 'https://criptomonedas-eburgos.netlify.app/',
         repoLink: 'https://github.com/e-burgos/cotizador-criptomonedas',
@@ -1212,7 +1279,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, React JS, API REST, Axios, Styled Components',
+          'Typescript, HTML, CSS, Javascript, React JS, API REST, Axios, Styled Components',
         preview: 'Demo',
         link: 'https://tragos-eburgos.netlify.app/',
         repoLink: 'https://github.com/e-burgos/bebidas',
@@ -1233,7 +1300,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'FullStack WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, React JS, Node JS, Express JS, MongoDB, Heroku, Netlify',
+          'Typescript, HTML, CSS, Javascript, React JS, Node JS, Express JS, MongoDB, Heroku, Netlify',
         preview: 'Demo',
         link: 'https://merntasks-eburgos.netlify.app/',
         repoLink: 'https://github.com/e-burgos/mern-tasks-react',
@@ -1255,7 +1322,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'FullStack WebApp',
         client: 'Demo',
         language:
-          'HTML, CSS, Javascript, React JS, Node JS, Express JS, MongoDB, Heroku, Netlify, Multer, JWT, bcrypt',
+          'Typescript, HTML, CSS, Javascript, React JS, Node JS, Express JS, MongoDB, Heroku, Netlify, Multer, JWT, bcrypt',
         preview: 'Demo',
         link: 'https://nodesend-next.vercel.app/',
         repoLink: 'https://github.com/e-burgos/nodesend-next',
@@ -1276,7 +1343,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'Mobile App',
         client: 'Demo',
         language:
-          'React Native, Android, iOS, Animated, Lottie, React Navigation, React Native Paper',
+          'Typescript, React Native, Android, iOS, Animated, Lottie, React Navigation, React Native Paper',
         preview: 'Demo',
         link: 'https://github.com/e-burgos/react-native-animated/tree/master/apk',
         repoLink: 'https://github.com/e-burgos/react-native-animated',
@@ -1298,7 +1365,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'Mobile App',
         client: 'Demo',
         language:
-          'React Native, Android, iOS, Animated, Lottie, React Navigation, React Native Paper',
+          'Typescript, React Native, Android, iOS, Animated, Lottie, React Navigation, React Native Paper',
         preview: 'Demo',
         link: 'https://github.com/e-burgos/react-native-weather/tree/master/apk',
         repoLink: 'https://github.com/e-burgos/react-native-weather',
@@ -1318,7 +1385,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
       {
         project: 'WebApp',
         client: 'Demo',
-        language: 'React JS, API REST, Axios, Styled Components',
+        language: 'Typescript, React JS, API REST, Axios, Styled Components',
         preview: 'Demo',
         link: 'https://clima-eburgos.netlify.app/',
         repoLink: 'https://github.com/e-burgos/react-native-weather',
@@ -1339,7 +1406,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'Mobile App',
         client: 'Demo',
         language:
-          'React Native, Android, iOS, Animated, React Navigation, React Native Paper',
+          'Typescript, React Native, Android, iOS, Animated, React Navigation, React Native Paper',
         preview: 'Demo',
         link: 'https://github.com/e-burgos/react-native-citas/tree/master/apk',
         repoLink: 'https://github.com/e-burgos/react-native-citas',
@@ -1361,12 +1428,74 @@ export const PortfolioDataEn: IPortfolioData[] = [
         project: 'Mobile App',
         client: 'Demo',
         language:
-          'React Native, Android, iOS, Animated, React Navigation, React Native Paper, Axios, API REST',
+          'Typescript, React Native, Android, iOS, Animated, React Navigation, React Native Paper, Axios, API REST',
         preview: 'Demo',
         link: 'https://github.com/e-burgos/react-native-criptomonedas/tree/master/apk',
         repoLink: 'https://github.com/e-burgos/react-native-criptomonedas',
         accessType: 'public',
         details: `Simple example in react native of the consumption of a cryptocurrency API.
+        `,
+      },
+    ],
+  },
+  {
+    id: 28,
+    type: 'CUSTOM STORYBOOK',
+    image: CustomStorybook,
+    tag: ['Featured', 'All', 'Todos', 'UI/UX', 'Storybook'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Component Library',
+        client: 'Santander Río',
+        language:
+          'Typescript, Storybook, React JS, Jest Testing Library, Styled Components, Cromatic',
+        preview: 'Cromatic',
+        link: 'https://63152ba2c41e0fd827079fb4-vagoymxsgw.chromatic.com',
+        repoLink: 'https://github.com/e-burgos/custom-storybook',
+        accessType: 'public',
+        details: `Demonstrative component library developed for Santander Río bank. It was developed with Storybook, Styled Components and Jest Testing Library. Chromatic was used for visual review of components.
+        `,
+      },
+    ],
+  },
+  {
+    id: 29,
+    type: 'OVERSOFT STORYBOOK',
+    image: OversoftStorybook,
+    tag: ['Featured', 'All', 'Todos', 'UI/UX', 'Storybook'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Component Library',
+        client: 'Oversoft SA',
+        language:
+          'Typescript, Storybook, React JS, Jest Testing Library, Styled Components, Cromatic',
+        preview: 'Cromatic',
+        link: 'https://64a6dbac61ad3a417c9476a7-lbluasacmt.chromatic.com',
+        repoLink: 'https://github.com/e-burgos/storybook-oversoft',
+        accessType: 'public',
+        details: `Initial component library developed for the company Oversoft. It was developed with Storybook, Styled Components and Jest Testing Library. Chromatic was used for visual review of components.
+        `,
+      },
+    ],
+  },
+  {
+    id: 30,
+    type: 'BANCO SANTANDER RIO',
+    image: Santander,
+    tag: ['Featured', 'All', 'WebApp', 'React JS', 'Next JS', 'Todos'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Management Systems',
+        client: 'Santander Río',
+        language:
+          'Typescript, Next JS, React JS, Jest Testing Library, Styled Components, MUI, React Query, Zustand, Axios, Typescript',
+        preview: 'Website',
+        link: 'https://www.santander.com.ar/personas',
+        accessType: 'restricted',
+        details: `Development of internal management systems for Santander Río bank. Ticket system and user management system. Collaboration in the development of the bank's institutional website. Development of a custom UI.
         `,
       },
     ],
@@ -1382,7 +1511,8 @@ export const PortfolioContentEs: IPortfolio = {
     'Destacados',
     'Microfrontends',
     'React JS',
-    'UI',
+    'UI/UX',
+    'Storybook',
     'React Native',
     'Wordpress',
     'E-commerce',
@@ -1390,7 +1520,7 @@ export const PortfolioContentEs: IPortfolio = {
     'Next JS',
     'Gatsby JS',
     'Node JS',
-    'Web3 / Blockchain',
+    'Web3/Blockchain',
     'GraphQL',
     'Mongo DB',
     'Vite JS',
@@ -1412,7 +1542,8 @@ export const PortfolioContentEn: IPortfolio = {
     'Featured',
     'Microfrontends',
     'React JS',
-    'UI',
+    'UI/UX',
+    'Storybook',
     'React Native',
     'Wordpress',
     'E-commerce',
@@ -1420,7 +1551,7 @@ export const PortfolioContentEn: IPortfolio = {
     'Next JS',
     'Gatsby JS',
     'Node JS',
-    'Web3 / Blockchain',
+    'Web3/Blockchain',
     'GraphQL',
     'Mongo DB',
     'Vite JS',

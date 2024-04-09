@@ -9,7 +9,7 @@ interface Props {
   data: IMainContent;
 }
 
-const Print: FC<Props> = ({ data: content }) => {
+const BasicResume: FC<Props> = ({ data: content }) => {
   return (
     <Document>
       <Page style={styles.body} size="A4">
@@ -28,7 +28,7 @@ const Print: FC<Props> = ({ data: content }) => {
         >
           <Image
             style={styles.image}
-            src="assets/img/hero/profile-mobile.jpeg"
+            src="assets/img/hero/profile-light.jpeg"
           />
         </View>
 
@@ -81,4 +81,4 @@ const Print: FC<Props> = ({ data: content }) => {
   );
 };
 
-export default Print;
+export default BasicResume;

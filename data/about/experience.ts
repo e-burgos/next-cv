@@ -52,7 +52,7 @@ export const experienceEs: IExperience = {
       • Realizar actualizaciones y mejoras constantes.`,
     },
     {
-      year: '2023 • julio de 2023 - enero de 2024',
+      year: '2023 • julio de 2023 - enero de 2024 · (6 meses)',
       position: 'Lead Frontend Engineer',
       companyName: 'Oversoft · Jornada completa',
       link: 'https://www.linkedin.com/company/oversoft-sa/mycompany/',
@@ -69,7 +69,7 @@ export const experienceEs: IExperience = {
       • Siempre estar actualizado sobre las últimas tecnologías y tendencias en el desarrollo frontend, permitiendo la adopción de enfoques innovadores y eficientes.`,
     },
     {
-      year: '2023 • mayo de 2023 - (actualidad)',
+      year: '2023 • mayo de 2023 - enero de 2024 · (8 meses)',
       position: 'Desarrollador de front-end',
       companyName: 'Startech Software Factory · Profesional independiente',
       link: 'https://www.linkedin.com/company/startech-software-factory/',
@@ -82,15 +82,14 @@ export const experienceEs: IExperience = {
       a nuestros clientes.`,
     },
     {
-      year: '2022 - 2023 • agosto de 2022 - (actualidad)',
+      year: '2022 • agosto de 2022 - enero de 2024 · (1 año 6 meses)',
       position: 'Front End Support Manager',
       companyName: 'Capstone',
       link: 'https://www.linkedin.com/company/capstoneside/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Experiencia en liderazgo y gestión de equipos de desarrollo Front End. Experto en tecnologías como HTML, CSS, JavaScript y frameworks basados en React. Responsable de coordinar la resolución de incidencias, brindar orientación técnica y asegurar la integración fluida de la interfaz de usuario en colaboración con otros equipos. Comprometido con la mejora continua y la optimización del rendimiento del sitio web. Habilidades destacadas incluyen gestión de equipos, resolución de problemas técnicos, implementación de nuevas tecnologías y atención al cliente en inquietudes técnicas.
-      `,
+      Experiencia en liderazgo y gestión de equipos de desarrollo Front End. Experto en tecnologías como HTML, CSS, JavaScript y frameworks basados en React. Responsable de coordinar la resolución de incidencias, brindar orientación técnica y asegurar la integración fluida de la interfaz de usuario en colaboración con otros equipos. Comprometido con la mejora continua y la optimización del rendimiento del sitio web. Habilidades destacadas incluyen gestión de equipos, resolución de problemas técnicos, implementación de nuevas tecnologías y atención al cliente en inquietudes técnicas.`,
     },
     {
       year: '2022 • enero de 2022 - junio de 2023 · (1 año 6 meses)',
@@ -99,10 +98,10 @@ export const experienceEs: IExperience = {
       link: 'https://www.linkedin.com/company/santandertec/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Estamos cambiando una de las industrias más tradicionales del mundo, haciendo de la tecnología su core. Queremos ser la mejor plataforma abierta de servicios financieros. El objetivo es enorme y solamente podemos alcanzarlo si somos capaces de armar grandes equipos.
+      details: `
+      Estamos cambiando una de las industrias más tradicionales del mundo, haciendo de la tecnología su core. Queremos ser la mejor plataforma abierta de servicios financieros. El objetivo es enorme y solamente podemos alcanzarlo si somos capaces de armar grandes equipos.
       Si siempre quisiste ser parte de desafíos de alto impacto, sumate al proyecto B2C más grande de la industria tecnológica en Argentina.Estamos cambiando una de las industrias más tradicionales del mundo, haciendo de la tecnología su core. Queremos ser la mejor plataforma abierta de servicios financieros. El objetivo es enorme y solamente podemos alcanzarlo si somos capaces de armar grandes equipos. Si siempre quisiste ser parte de desafíos de alto impacto, sumate al proyecto B2C más grande de la industria tecnológica en Argentina.
-      Aptitudes: Definición de requisitos · Estándares web · Prueba unitaria · Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · TypeScript · Desarrollo Full Stack · Node.js · Express.js · Webpack · Website Development · Git · Scrum · Trabajo en equipo · MySQL
-      `,
+      Aptitudes: Definición de requisitos · Estándares web · Prueba unitaria · Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · TypeScript · Desarrollo Full Stack · Node.js · Express.js · Webpack · Website Development · Git · Scrum · Trabajo en equipo · MySQL `,
     },
     {
       year: '2021 • junio de 2021 - enero de 2022 · (8 meses)',
@@ -112,8 +111,7 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Aptitudes: Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · TypeScript · Desarrollo Full Stack · Node.js · React Native · Webpack · Website Development · Git · Scrum · Trabajo en equipo · Liderazgo de equipos · MySQL
-      `,
+      Aptitudes: Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · TypeScript · Desarrollo Full Stack · Node.js · React Native · Webpack · Website Development · Git · Scrum · Trabajo en equipo · Liderazgo de equipos · MySQL`,
     },
     {
       year: '2021 • enero de 2020 - enero de 2022 · (2 años 1 mes)',
@@ -128,8 +126,7 @@ export const experienceEs: IExperience = {
       Para garantizar una correcta implementación, me gusta realizar el despliegue de mis proyectos en plataformas de servicios como Heroku, Netlify o Vercel, para realizar pruebas exhaustivas.
       La comunicación es fundamental para mí, tanto en el código como en el equipo de trabajo. Utilizo GIT a diario y herramientas como Trello, Slack, Discord y G-Suite para una comunicación y organización eficientes.
       Me apasionan los proyectos desafiantes, ya que considero que son una oportunidad para adquirir nuevos conocimientos y disfrutar la satisfacción de superar obstáculos que ponen a prueba mis habilidadesMi enfoque profesional se centra en el desarrollo de aplicaciones web robustas, ordenadas y seguras, siguiendo las mejores prácticas actuales. Tengo amplia experiencia en tecnologías tanto de backend como de frontend, trabajando con JavaScript, HTML, CSS, Node.js, Express.js y React.js a diario. Además, utilizo Restful Web Services y diversas bases de datos como MongoDB, MySQL y Firebase, según las necesidades del proyecto. Estoy familiarizado con otras tecnologías, como JWT, AWS, Bootstrap 4, Tailwind CSS, Sequelize.js, Mongoose, EJS, Ruby on Rails y Wordpress, entre otras. Para garantizar una correcta implementación, me gusta realizar el despliegue de mis proyectos en plataformas de servicios como Heroku, Netlify o Vercel, para realizar pruebas exhaustivas. La comunicación es fundamental para mí, tanto en el código como en el equipo de trabajo. Utilizo GIT a diario y herramientas como Trello, Slack, Discord y G-Suite para una comunicación y organización eficientes. Me apasionan los proyectos desafiantes, ya que considero que son una oportunidad para adquirir nuevos conocimientos y disfrutar la satisfacción de superar obstáculos que ponen a prueba mis habilidades
-      Aptitudes: Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · English · TypeScript · Desarrollo Full Stack · Express.js · React Native · Web Design · Webpack · Website Development · Blockchain · Git · MySQL · WordPress · Firebase · jQuery
-      `,
+      Aptitudes: Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · English · TypeScript · Desarrollo Full Stack · Express.js · React Native · Web Design · Webpack · Website Development · Blockchain · Git · MySQL · WordPress · Firebase · jQuery`,
     },
     {
       year: '2016 - 2021 • enero de 2016 - abril de 2021 · (5 años 4 meses)',
@@ -138,26 +135,13 @@ export const experienceEs: IExperience = {
       link: 'https://www.linkedin.com/company/gme-alliance/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `GME brinda la posibilidad de desempeñar un mix funcional dentro del área
-      comercial & IT abocándome dentro de la compañía a diferentes roles:
-      • Técnico Comercial: elaboramos estrategias comerciales con clientes del
-      medio, logrando ajustar metas de adquisición de sitios, seguimiento de
-      operaciones y documentación al día.
-      • Negociaciones: generamos estrategias de negociación en el entorno
-      gubernamental, buscando el interés de municipios y entidades del estado para
-      la instalación de nuestras torres, incentivando la brecha digital existente y la
-      necesidad de la comunidad en cuanto a la baja calidad del servicio.
-      • Análisis Legal: junto al equipo legal nos aseguramos de que las ordenanzas
-      de municipales de cada año cumplan con la posibilidad de instalación de
-      nuestras torres, de no ser así, trabajamos en argumentos legales que lleguen
-      a una negociación conjunta.
-      • Operaciones: estoy encargado del desarrollo y manejo de software
-      propio, con el mismo establecemos de forma automatizada las diferentes
-      responsabilidades de cada uno de nuestros colaboradores, haciendo el
-      seguimiento y el reporte de avances del proyecto mucho más llevadero.
-      • Contenido digital: elaboraciones y difusión de medios sociales (web, redes,
-      presentaciones, etc) brindando información de nuestras competencias a la
-      comunidad y al entorno.`,
+      details: `
+      GME brinda la posibilidad de desempeñar un mix funcional dentro del área comercial & IT abocándome dentro de la compañía a diferentes roles:
+      • Técnico Comercial: elaboramos estrategias comerciales con clientes del medio, logrando ajustar metas de adquisición de sitios, seguimiento de operaciones y documentación al día.
+      • Negociaciones: generamos estrategias de negociación en el entorno gubernamental, buscando el interés de municipios y entidades del estado para la instalación de nuestras torres, incentivando la brecha digital existente y la necesidad de la comunidad en cuanto a la baja calidad del servicio.
+      • Análisis Legal: junto al equipo legal nos aseguramos de que las ordenanzas de municipales de cada año cumplan con la posibilidad de instalación de nuestras torres, de no ser así, trabajamos en argumentos legales que lleguen a una negociación conjunta.
+      • Operaciones: estoy encargado del desarrollo y manejo de software propio, con el mismo establecemos de forma automatizada las diferentes responsabilidades de cada uno de nuestros colaboradores, haciendo el seguimiento y el reporte de avances del proyecto mucho más llevadero.
+      • Contenido digital: elaboraciones y difusión de medios sociales (web, redes, presentaciones, etc) brindando información de nuestras competencias a la comunidad y al entorno.`,
     },
     {
       year: '2016 - 2020 • marzo de 2016 - diciembre de 2020 (4 años 10 meses)',
@@ -166,13 +150,11 @@ export const experienceEs: IExperience = {
       link: 'https://www.linkedin.com/company/gme-alliance/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Elaboración y manejo del Product Backlog. Gestión de presupuesto y
-      determinación de requisitos generales y actividades iniciales del proyecto.
-      Representar a los usuarios del producto y asegurar los recursos financieros
-      que requiere el proyecto para su inicio y desarrollo. Análisis de la viabilidad del
-      emprendimiento para garantizar que el producto sea entregado. Desarrollo y
-      establecimiento de criterios para aceptar las historias de los usuarios; aprobar
-      o negar los productos`,
+      details: `
+      • Elaboración y manejo del Product Backlog. Gestión de presupuesto y determinación de requisitos generales y actividades iniciales del proyecto.
+      • Representar a los usuarios del producto y asegurar los recursos financierosque requiere el proyecto para su inicio y desarrollo. 
+      • Análisis de la viabilidad delemprendimiento para garantizar que el producto sea entregado. 
+      • Desarrollo y establecimiento de criterios para aceptar las historias de los usuarios; aprobar o negar los productos`,
     },
     {
       year: '2019 - 2020 • marzo de 2019 - marzo de 2020 (1 año 1 mes)',
@@ -181,10 +163,8 @@ export const experienceEs: IExperience = {
       link: 'https://www.linkedin.com/company/digital-boomeran/?viewAsMember=true',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Asesoría y organización de equipo de trabajo, eliminación de impedimentos
-      para asegurar objetivos en tiempo y forma, facilitador en presentaciones de
-      sprints ante stackholders, llevar a cabo los dailies standups, administación y
-      gestión de Product Backlog.`,
+      details: `
+      Asesoría y organización de equipo de trabajo, eliminación de impedimentos para asegurar objetivos en tiempo y forma, facilitador en presentaciones de sprints ante stackholders, llevar a cabo los dailies standups, administación y gestión de Product Backlog.`,
     },
     {
       year: '2017 - 2019 • marzo de 2017 - marzo de 2019 (2 años 1 mes)',
@@ -193,10 +173,8 @@ export const experienceEs: IExperience = {
       link: 'https://www.linkedin.com/company/digital-boomeran/?viewAsMember=true',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Funciones principales centradas en la identificación de oportunidades de
-      negocio; creación y clasificación de nuevas ideas; co-diseño del producto;
-      optimizaciones y mejoras; liderazgo de equipos y buenas prácticas de
-      lanzamiento entre otras.`,
+      details: `
+      Funciones principales centradas en la identificación de oportunidades de negocio; creación y clasificación de nuevas ideas; co-diseño del producto; optimizaciones y mejoras; liderazgo de equipos y buenas prácticas de lanzamiento entre otras.`,
     },
     {
       year: '2014 - 2016 • febrero de 2014 - enero de 2016 (2 años)',
@@ -205,15 +183,10 @@ export const experienceEs: IExperience = {
       link: '',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Mi trabajo se centra en velar por el correcto funcionamiento de las redes y
-      software necesarios para NMS.
-      Así también mantener el nexo con nuestros clientes estableciendo
-      negociaciones de infraestructura.
-      Continuamente implementamos nuevas tecnologías en el campo de la
-      telecomunicación lo que genera un plus para nuestros clientes. El área de
-      software y IT impulsan el desarrollo de sistemas cooperativos en tiempo real,
-      donde se integran todos los actores de la empresa apoyandose fuertemente
-      en el uso de gestión webs, apps y el internet de las cosas.`,
+      details: `
+      Mi trabajo se centra en velar por el correcto funcionamiento de las redes y software necesarios para NMS. Así también mantener el nexo con nuestros clientes estableciendo negociaciones de infraestructura.
+      Continuamente implementamos nuevas tecnologías en el campo de la telecomunicación lo que genera un plus para nuestros clientes. 
+      El área de software y IT impulsan el desarrollo de sistemas cooperativos en tiempo real, donde se integran todos los actores de la empresa apoyandose fuertemente en el uso de gestión webs, apps y el internet de las cosas.`,
     },
     {
       year: '2013 - 2014 • marzo de 2013 - enero de 2014 (11 meses)',
@@ -222,11 +195,9 @@ export const experienceEs: IExperience = {
       link: '',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `CodeLive ofrece a sus clientes aplicaciones y soluciones seguras y
-      personalizadas a sus necesidades para realizar su negocio en Internet. Estas
-      soluciones se diseñan de forma que se facilite la integración de las mismas
-      con los otros sistemas de información que la empresa dispone para su gestión
-      empresarial.`,
+      details: `
+      CodeLive ofrece a sus clientes aplicaciones y soluciones seguras y personalizadas a sus necesidades para realizar su negocio en Internet. 
+      Estas soluciones se diseñan de forma que se facilite la integración de las mismas con los otros sistemas de información que la empresa dispone para su gestión empresarial.`,
     },
     {
       year: '2013 • enero de 2013 - diciembre de 2013 (1 año)',
@@ -235,10 +206,8 @@ export const experienceEs: IExperience = {
       link: 'https://www.linkedin.com/company/universidad-de-san-pablo-tucuman/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Mi trabajo se centra en la internetworking de la USPT y el soporte a los
-      inconvenientes cotidianos que se presenten en la misma, resolviendo
-      contingencias de configuración, mantenimiento y desarrollo de Infraestructura
-      de red, servidores, equipos finales, etc.`,
+      details: `
+      Mi trabajo se centra en la internetworking de la USPT y el soporte a los inconvenientes cotidianos que se presenten en la misma, resolviendo contingencias de configuración, mantenimiento y desarrollo de Infraestructura de red, servidores, equipos finales, etc.`,
     },
     {
       year: '2021 • ago. 2021 - actualidad',
@@ -247,9 +216,8 @@ export const experienceEs: IExperience = {
       link: 'http://rides.producciontucuman.gov.ar/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Area Tecnología, Gobierno de la provincia, Argentina
-        Desarrollo de aplicaciones en .NET, Silverlight, API ArcGis for Silverlight,
-        ArcGis Viewer for Silverlight`,
+      details: `
+      Area Tecnología, Gobierno de la provincia, Argentina Desarrollo de aplicaciones en .NET, Silverlight, API ArcGis for Silverlight, ArcGis Viewer for Silverlight`,
     },
     {
       year: '2008 - 2012 • abril de 2008 - abril de 2012 (4 años 1 mes)',
@@ -258,10 +226,8 @@ export const experienceEs: IExperience = {
       link: '',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Diseño del sistema, administración general del negocio, compras, ventas,
-      atención al cliente, reparaciones exclusiva de telefonía celular, asesoramiento
-      técnico integral, software y hardware de equipos multimarca.
-      Área Tecnología, en industria Telecomunicaciones, Argentina.`,
+      details: `
+      Diseño del sistema, administración general del negocio, compras, ventas, atención al cliente, reparaciones exclusiva de telefonía celular, asesoramiento técnico integral, software y hardware de equipos multimarca. Área Tecnología, en industria Telecomunicaciones, Argentina.`,
     },
     {
       year: '2006 - 2008 • abril de 2006 - marzo de 2008 (2 años)',
@@ -270,9 +236,8 @@ export const experienceEs: IExperience = {
       link: 'https://www.facebook.com/todosporttucuman/videos/juarez-frenos-y-embragues/152553996101977/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
-      details: `Mantenimiento de equipos, diseño y mantenimiento de red lan interna, manejo
-      de inventario y compras, administración de cuentas corrientes.
-      área Administración, en industria Automotriz, Argentina`,
+      details: `
+      Mantenimiento de equipos, diseño y mantenimiento de red lan interna, manejo de inventario y compras, administración de cuentas corrientes. área Administración, en industria Automotriz, Argentina`,
     },
   ],
 };
@@ -314,7 +279,7 @@ export const experienceEn: IExperience = {
       • Make constant updates and improvements.`,
     },
     {
-      year: '2023 • july 2023 - january 2024',
+      year: '2023 • july 2023 - january 2024 · (6 months)',
       position: 'Lead Frontend Engineer',
       companyName: 'Oversoft · Full time',
       link: 'https://www.linkedin.com/company/oversoft-sa/mycompany/',
@@ -331,7 +296,7 @@ export const experienceEn: IExperience = {
       • Always be up to date on the latest technologies and trends in frontend development, allowing the adoption of innovative and efficient approaches.`,
     },
     {
-      year: '2023 • may 2023 - (current)',
+      year: '2023 • may 2023 - january 2024 · (8 months)',
       position: 'Front End Developer',
       companyName: 'Startech Software Factory · Freelance',
       link: 'https://www.linkedin.com/company/startech-software-factory/',
@@ -341,7 +306,7 @@ export const experienceEn: IExperience = {
       We create innovative and customized solutions for companies of all sizes, from small startups to large corporations. Our commitment is to provide high quality software development services and deliver exceptional results to our clients.`,
     },
     {
-      year: '2022 - 2023 • august 2022 - (current)',
+      year: '2022 • august 2022 - january 2024 · (1 year 6 months)',
       position: 'Front End Support Manager',
       companyName: 'Capstone',
       link: 'https://www.linkedin.com/company/capstoneside/',
