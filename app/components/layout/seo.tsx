@@ -1,6 +1,7 @@
 'use client';
 
 import Head from 'next/head';
+import Script from 'next/script';
 
 const SEO = () => {
   return (
@@ -93,6 +94,18 @@ const SEO = () => {
           href="/favicon/icon-16.png"
         />
       </Head>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-2CB2GYWMRQ"
+      ></Script>
+      <Script id="google-tags">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-2CB2GYWMRQ');
+        `}
+      </Script>
     </>
   );
 };
