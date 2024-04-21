@@ -3,12 +3,16 @@ import Aos from 'aos';
 import React, { FunctionComponent, useEffect } from 'react';
 import AnimatedCursor from 'react-animated-cursor';
 import { ToastContainer } from 'react-toastify';
+import SwitchDark from '../switch/switch-dark';
+import SwitchLang from '../switch/switch-lang';
+import { useContent } from '@/app/store/useContent';
 
 interface Props {
   children: React.ReactNode;
 }
 
 const Wrapper: FunctionComponent<Props> = ({ children }) => {
+  const { content } = useContent();
   useEffect(() => {
     Aos.init({
       duration: 1200,
@@ -24,7 +28,11 @@ const Wrapper: FunctionComponent<Props> = ({ children }) => {
         innerScale={0.7}
         outerScale={1.2}
       />
-      {children}
+      <div className="blue">
+        <SwitchDark />
+        <SwitchLang />
+        {children}
+      </div>
       <ToastContainer />
     </>
   );

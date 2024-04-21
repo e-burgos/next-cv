@@ -1,13 +1,11 @@
 'use client';
 
-import Head from 'next/head';
-import Script from 'next/script';
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
 const SEO = () => {
   return (
     <>
-      <Head>
-        <meta charSet="UTF-8" />
+      <head>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <title>Esteban Burgos CV</title>
         <meta
@@ -16,14 +14,11 @@ const SEO = () => {
         />
         <meta
           name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width"
+          content="minimum-scale=1.0, initial-scale=1.0, width=device-width"
         />
         <link rel="icon" type="image/svg+xml" href="/favicon/favicon.ico" />
         <link rel="manifest" href="/favicon/manifest.json" />
-        <link rel="canonical" href="https://sugarkingdom.io" />
-        <link rel="icon" type="image/svg+xml" href="/favicon/favicon.ico" />
-        <link rel="manifest" href="/favicon/manifest.json" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://www.estebanburgos.com.ar/" />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -93,19 +88,9 @@ const SEO = () => {
           sizes="16x16"
           href="/favicon/icon-16.png"
         />
-      </Head>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-2CB2GYWMRQ"
-      ></Script>
-      <Script id="google-tags">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-2CB2GYWMRQ');
-        `}
-      </Script>
+      </head>
+      <GoogleAnalytics gaId="G-2CB2GYWMRQ" />
+      <GoogleTagManager gtmId="GT-TQKZXD8G" />
     </>
   );
 };
