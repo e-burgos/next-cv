@@ -5,14 +5,12 @@ import AnimatedCursor from 'react-animated-cursor';
 import { ToastContainer } from 'react-toastify';
 import SwitchDark from '../switch/switch-dark';
 import SwitchLang from '../switch/switch-lang';
-import { useContent } from '@/app/store/useContent';
 
 interface Props {
   children: React.ReactNode;
 }
 
 const Wrapper: FunctionComponent<Props> = ({ children }) => {
-  const { content } = useContent();
   useEffect(() => {
     Aos.init({
       duration: 1200,

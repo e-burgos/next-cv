@@ -1,11 +1,12 @@
 'use client';
 
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
+import Head from 'next/head';
 
 const SEO = () => {
   return (
     <>
-      <head>
+      <Head>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <title>Esteban Burgos CV</title>
         <meta
@@ -88,7 +89,7 @@ const SEO = () => {
           sizes="16x16"
           href="/favicon/icon-16.png"
         />
-      </head>
+      </Head>
       <GoogleAnalytics gaId="G-2CB2GYWMRQ" />
       <GoogleTagManager gtmId="GT-TQKZXD8G" />
     </>
