@@ -1,7 +1,7 @@
 'use client';
 
 import '@/styles/index.scss';
-import SEO from './components/layout/seo';
+import SEO from '../components/layout/seo';
 
 export default function RootLayout({
   children,
