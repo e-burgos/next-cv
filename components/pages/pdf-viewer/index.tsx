@@ -122,19 +122,20 @@ const SkillsResume: FC<Props> = (props) => (
     <HeaderTitle
       title={props.content.about.skillsCollaborativeTools.title}
       subTitle={props.content.about.skillsCollaborativeTools.subtitle}
+      isBreak
     />
     <Skills content={props.content.about.skillsCollaborativeTools} />
 
     <HeaderTitle
       title={props.content.about.skillsBlockchain.title}
       subTitle={props.content.about.skillsBlockchain.subtitle}
-      isBreak
     />
     <Skills content={props.content.about.skillsBlockchain} />
 
     <HeaderTitle
       title={props.content.about.skillsDB.title}
       subTitle={props.content.about.skillsDB.subtitle}
+      isBreak
     />
     <Skills content={props.content.about.skillsDB} />
 
