@@ -138,7 +138,7 @@ const ModalOne = ({ data, setGetModal }: Props) => {
                     <i className="fa fa-code pr-2"></i>
                     {currentLang === 'es'
                       ? `Lenguaje y herramientas utilizadas: `
-                      : `Language and tools used`}
+                      : `Language and tools used: `}
                     <span className="ft-wt-600 uppercase">
                       {details.language}
                     </span>

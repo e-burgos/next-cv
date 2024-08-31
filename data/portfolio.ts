@@ -28,6 +28,7 @@ import Celesi from '@/public/assets/img/portfolio/celesi.png';
 import CustomStorybook from '@/public/assets/img/portfolio/custom-storybook.png';
 import OversoftStorybook from '@/public/assets/img/portfolio/oversoft-storybook.png';
 import Santander from '@/public/assets/img/portfolio/santander.png';
+import NxMf from '@/public/assets/img/portfolio/nx-mf.png';
 
 import { StaticImageData } from 'next/image';
 
@@ -37,6 +38,7 @@ export type ITag =
   | 'Destacados'
   | 'Featured'
   | 'Microfrontends'
+  | 'Nx'
   | 'React JS'
   | 'UI/UX'
   | 'Storybook'
@@ -811,6 +813,45 @@ export const PortfolioDataEs: IPortfolioData[] = [
       },
     ],
   },
+  {
+    id: 31,
+    type: 'POC: NX MONOREPO CON MODULE FEDERATION',
+    image: NxMf,
+    tag: ['Destacados', 'Featured', 'All', 'Todos', 'Microfrontends', 'Nx'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Infraestructura de Microfrontends',
+        client: 'Membrane Labs',
+        language: 'Typescript, Nx, Webpack 5, Module Federation, React JS',
+        preview: 'Repository',
+        link: 'https://github.com/e-burgos/nx-with-module-federation',
+        repoLink: 'https://github.com/e-burgos/nx-with-module-federation',
+        accessType: 'public',
+        details: `Prueba de concepto de un monorepo con Nx y Module Federation de Webpack 5. Se crearon 9 aplicaciones independientes que se comunican entre sí. La aplicación host consume el resto de las apps mediante Module Federation.`,
+      },
+    ],
+  },
+  {
+    id: 32,
+    type: 'POC: NX CON MONOREPO INTEGRADO',
+    image: NxMf,
+    tag: ['Destacados', 'Featured', 'All', 'Todos', 'Microfrontends', 'Nx'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Infraestructura de Microfrontends',
+        client: 'Membrane Labs',
+        language: 'Typescript, Nx, Vite JS, React JS, React Query, Zustand',
+        preview: 'Preview',
+        link: 'https://nx-with-integrated-repos.vercel.app',
+        repoLink: 'https://github.com/e-burgos/nx-with-integrated-repos',
+        accessType: 'public',
+        details: `Infraestructura de Microfrontends con estados de servidor y cliente compartidos. Prueba de concepto de un monorepo con Nx y Vite JS. La idea es crear una arquitectura escalable y mantenible para el desarrollo de microfrontends. La aplicación host es la aplicación principal que importará otras aplicaciones y funcionará como orquestador. Esta aplicación será el punto de entrada principal del proyecto.
+        `,
+      },
+    ],
+  },
 ];
 
 export const PortfolioDataEn: IPortfolioData[] = [
@@ -891,7 +932,6 @@ export const PortfolioDataEn: IPortfolioData[] = [
       },
     ],
   },
-
   {
     id: 4,
     type: 'Celesi',
@@ -1016,7 +1056,6 @@ export const PortfolioDataEn: IPortfolioData[] = [
       },
     ],
   },
-
   {
     id: 9,
     type: 'PERSONAL CV',
@@ -1245,7 +1284,6 @@ export const PortfolioDataEn: IPortfolioData[] = [
       },
     ],
   },
-
   {
     id: 19,
     type: 'CONVERSOR DE CRIPTOMONEDAS',
@@ -1267,7 +1305,6 @@ export const PortfolioDataEn: IPortfolioData[] = [
       },
     ],
   },
-
   {
     id: 20,
     type: 'Bucador de Recetas de Bebidas',
@@ -1416,7 +1453,6 @@ export const PortfolioDataEn: IPortfolioData[] = [
       },
     ],
   },
-
   {
     id: 27,
     type: 'CRYPTO APP',
@@ -1500,6 +1536,46 @@ export const PortfolioDataEn: IPortfolioData[] = [
       },
     ],
   },
+  {
+    id: 31,
+    type: 'POC: NX MONOREPO WITH MODULE FEDERATION',
+    image: NxMf,
+    tag: ['Destacados', 'Featured', 'All', 'Todos', 'Microfrontends', 'Nx'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Frontend Infrastructure',
+        client: 'Membrane Labs',
+        language: 'Typescript, Nx, Webpack 5, Module Federation, React JS',
+        preview: 'Repository',
+        link: 'https://github.com/e-burgos/nx-with-module-federation',
+        repoLink: 'https://github.com/e-burgos/nx-with-module-federation',
+        accessType: 'public',
+        details: `Proof of concept of a monorepo with Nx and Module Federation. The idea is to create a scalable and maintainable architecture for the development of microfrontends. The host application consumes the rest of the apps through Module Federation.
+        `,
+      },
+    ],
+  },
+  {
+    id: 32,
+    type: 'POC: NX WITH INTEGRATED MONOREPO',
+    image: NxMf,
+    tag: ['Destacados', 'Featured', 'All', 'Todos', 'Microfrontends', 'Nx'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Microfrontends Infrastructure',
+        client: 'Membrane Labs',
+        language: 'Typescript, Nx, Vite JS, React JS, React Query, Zustand',
+        preview: 'Preview',
+        link: 'https://nx-with-integrated-repos.vercel.app',
+        repoLink: 'https://github.com/e-burgos/nx-with-integrated-repos',
+        accessType: 'public',
+        details: `Microfrontends infrastructure with shared server and client states. Proof of concept of a monorepo with Nx and Vite JS. The idea is to create a scalable and maintainable architecture for the development of microfrontends. Host application is the main application that will import others applications and works as orchestrator. This app will be the main entry point of the project.
+        `,
+      },
+    ],
+  },
 ];
 
 export const PortfolioContentEs: IPortfolio = {
@@ -1510,6 +1586,7 @@ export const PortfolioContentEs: IPortfolio = {
   tabs: [
     'Destacados',
     'Microfrontends',
+    'Nx',
     'React JS',
     'UI/UX',
     'Storybook',
@@ -1541,6 +1618,7 @@ export const PortfolioContentEn: IPortfolio = {
   tabs: [
     'Featured',
     'Microfrontends',
+    'Nx',
     'React JS',
     'UI/UX',
     'Storybook',

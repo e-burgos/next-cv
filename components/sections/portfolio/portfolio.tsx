@@ -31,9 +31,9 @@ const Portfolio: FC<IPortfolioProps> = ({ data }) => {
     'Gatsby JS',
     'React Native',
     'Storybook',
+    'Nx',
     'MUI',
     'GraphQL',
-    'Microfrontends',
     'Wordpress',
     'Web3/Blockchain',
     allTabLang,
@@ -48,6 +48,7 @@ const Portfolio: FC<IPortfolioProps> = ({ data }) => {
     'Mobile App',
     'UI/UX',
     'Web3/Blockchain',
+    'Microfrontends',
     allTabLang,
   ];
 
