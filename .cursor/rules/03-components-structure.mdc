@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+title: Components Structure
+---
+# Components Structure
+
+The components are organized in a modular structure:
+
+- [components/layout/](mdc:components/layout/) - Layout components including SEO and wrappers
+- [components/menu/](mdc:components/menu/) - Navigation menu components
+- [components/sections/](mdc:components/sections/) - Main content sections
+  - [components/sections/profile/](mdc:components/sections/profile/) - Profile section components
+  - [components/sections/about/](mdc:components/sections/about/) - About section components
+  - [components/sections/portfolio/](mdc:components/sections/portfolio/) - Portfolio section components
+  - [components/sections/contact/](mdc:components/sections/contact/) - Contact form components
+  - [components/sections/blog/](mdc:components/sections/blog/) - Blog section components
+- [components/switch/](mdc:components/switch/) - Toggle/switch components
+- [components/pages/](mdc:components/pages/) - Page-specific components

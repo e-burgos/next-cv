@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build",
+    "serve": "npx serve dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
@@ -30,12 +32,12 @@
     "sass": "^1.56.0",
     "sharp": "^0.33.3",
     "slick-carousel": "^1.8.1",
-    "typescript": "5.1.6",
     "zustand": "^4.3.8"
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
     "@types/react-modal": "^3.16.0",
-    "@types/react-slick": "^0.23.10"
+    "@types/react-slick": "^0.23.10",
+    "typescript": "5.8.3"
   }
 }

@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+title: App Structure
+---
+# App Structure
+
+The app uses Next.js App Router structure with the following key routes:
+
+- [app/(home)/](mdc:app/(home)/) - Home page route (main page)
+- [app/about-me/](mdc:app/about-me/) - About me page
+- [app/portfolio/](mdc:app/portfolio/) - Portfolio showcase
+- [app/pdf-viewer/](mdc:app/pdf-viewer/) - PDF CV viewer
+
+The root layout [app/layout.tsx](mdc:app/layout.tsx) wraps all pages and includes global styling and SEO settings.

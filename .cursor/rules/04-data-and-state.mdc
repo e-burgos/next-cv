@@ -1,0 +1,25 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+title: Data and State Management
+---
+# Data and State Management
+
+## Data Files
+The application uses static data files for content:
+
+- [data/profile.ts](mdc:data/profile.ts) - Personal profile information
+- [data/portfolio.ts](mdc:data/portfolio.ts) - Portfolio projects data
+- [data/about.ts](mdc:data/about.ts) - About section data
+- [data/blog.ts](mdc:data/blog.ts) - Blog posts data
+- [data/social.ts](mdc:data/social.ts) - Social media links
+- [data/menu.ts](mdc:data/menu.ts) - Navigation menu items
+- [data/main.ts](mdc:data/main.ts) - Main configuration data
+
+## State Management
+The application uses Zustand for state management, with stores defined in the [store/](mdc:store/) directory.
+
+Custom React hooks are available in the [hooks/](mdc:hooks/) directory.

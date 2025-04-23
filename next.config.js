@@ -7,6 +7,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Configuración para exportación estática
+  output: 'export',
+  distDir: 'dist',
 };
 
 module.exports = nextConfig;

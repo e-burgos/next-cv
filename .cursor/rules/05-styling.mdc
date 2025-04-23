@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+title: Styling
+---
+# Styling
+
+This project uses SCSS for styling with the following structure:
+
+- [styles/index.scss](mdc:styles/index.scss) - Main style entry point
+- Bootstrap 5 is used as a CSS framework
+- The application has support for theme switching (light/dark mode)
+
+Animation libraries:
+- AOS (Animate On Scroll) for scroll animations
+- react-animated-cursor for custom cursor effects
+- Slick Carousel for slider components
