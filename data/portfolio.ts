@@ -29,6 +29,7 @@ import CustomStorybook from '@/public/assets/img/portfolio/custom-storybook.png'
 import OversoftStorybook from '@/public/assets/img/portfolio/oversoft-storybook.png';
 import Santander from '@/public/assets/img/portfolio/santander.png';
 import NxMf from '@/public/assets/img/portfolio/nx-mf.png';
+import TokenManager from '@/public/assets/img/portfolio/defi-token.png';
 
 import { StaticImageData } from 'next/image';
 
@@ -60,7 +61,8 @@ export type ITag =
   | 'Categories'
   | 'Technologies'
   | 'Categorías'
-  | 'Tecnologías';
+  | 'Tecnologías'
+  | 'Tailwind CSS';
 
 export type IModalType = 'image' | 'youtube' | 'video' | 'slider';
 
@@ -100,15 +102,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 1,
     type: 'Microfrontends con React Query',
     image: MicrofrontImg,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'Microfrontends',
-      'React JS',
-      'WebApp',
-    ],
+    tag: ['Todos', 'Microfrontends', 'React JS', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -130,8 +124,6 @@ export const PortfolioDataEs: IPortfolioData[] = [
     image: MovistarImg,
     tag: [
       'Destacados',
-      'Featured',
-      'All',
       'Todos',
       'Next JS',
       'Node JS',
@@ -157,16 +149,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 3,
     type: 'Membrane Labs',
     image: MembraneLabs,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'Vite JS',
-      'Web3/Blockchain',
-      'DApp',
-      'MUI',
-    ],
+    tag: ['Destacados', 'Todos', 'Vite JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalType: 'youtube',
     videoLink: 'https://www.youtube.com/embed/7wmCDboQhOo?si=Iias1ZtC0-34qjyU',
@@ -187,15 +170,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 4,
     type: 'Celesi',
     image: Celesi,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'Next JS',
-      'WebApp',
-      'E-commerce',
-    ],
+    tag: ['Todos', 'Next JS', 'WebApp', 'E-commerce'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -214,15 +189,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 5,
     type: 'Coolco',
     image: Coolco,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'Next JS',
-      'Web3/Blockchain',
-      'WebApp',
-    ],
+    tag: ['Todos', 'Next JS', 'Web3/Blockchain', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -243,16 +210,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 6,
     type: 'Sugar Kingdom Odyssey Landing Page',
     image: SugarLanding,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'React JS',
-      'MUI',
-      'Web3/Blockchain',
-      'Landing Page',
-    ],
+    tag: ['Todos', 'React JS', 'MUI', 'Web3/Blockchain', 'Landing Page'],
     delayAnimation: '200',
     modalType: 'youtube',
     videoLink:
@@ -276,16 +234,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 7,
     type: 'Sugar Kingdom Odyssey Game DApp',
     image: SugarGame,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'React JS',
-      'Web3/Blockchain',
-      'Vite JS',
-      'DApp',
-    ],
+    tag: ['Todos', 'React JS', 'Web3/Blockchain', 'Vite JS', 'DApp'],
     delayAnimation: '200',
     modalType: 'youtube',
     videoLink:
@@ -309,15 +258,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 8,
     type: 'Sugar Kingdom Odyssey Staking Dapp',
     image: SugarStaking,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'Next JS',
-      'Web3/Blockchain',
-      'DApp',
-    ],
+    tag: ['Todos', 'Next JS', 'Web3/Blockchain', 'DApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -340,16 +281,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 9,
     type: 'PERSONAL CV',
     image: CvGastby,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'Gatsby JS',
-      'Node JS',
-      'GraphQL',
-      'WebApp',
-    ],
+    tag: ['Todos', 'Gatsby JS', 'Node JS', 'GraphQL', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -371,7 +303,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 10,
     type: 'OPTICA PINBLACK',
     image: PinblackImg,
-    tag: ['Destacados', 'Featured', 'All', 'Todos', 'E-commerce', 'Wordpress'],
+    tag: ['Todos', 'E-commerce', 'Wordpress'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -390,7 +322,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 11,
     type: 'BLOCKLIT',
     image: Blocklit,
-    tag: ['All', 'Todos', 'React JS', 'Landing Page'],
+    tag: ['Todos', 'React JS', 'Landing Page'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -409,7 +341,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 12,
     type: 'Gogrow Challenge',
     image: GoGrow,
-    tag: ['All', 'Todos', 'React JS', 'Landing Page'],
+    tag: ['Todos', 'React JS', 'Landing Page'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -430,7 +362,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 13,
     type: 'NextJS Challenge Sample Survey Web3',
     image: Quiz,
-    tag: ['All', 'Todos', 'Next JS', 'Web3/Blockchain', 'DApp', 'MUI'],
+    tag: ['Todos', 'Next JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -460,7 +392,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 14,
     type: 'ViteJS Challenge Sample Survey Web3',
     image: Quiz2,
-    tag: ['All', 'Todos', 'Vite JS', 'Web3/Blockchain', 'DApp', 'MUI'],
+    tag: ['Todos', 'Vite JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -490,7 +422,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 15,
     type: 'CHARMING STEP',
     image: CharmingImg,
-    tag: ['All', 'Todos', 'E-commerce', 'Wordpress'],
+    tag: ['Todos', 'E-commerce', 'Wordpress'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -509,7 +441,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 16,
     type: 'BANDURRIA DECO',
     image: BanduTiendaImg,
-    tag: ['All', 'Todos', 'E-commerce', 'Wordpress'],
+    tag: ['Todos', 'E-commerce', 'Wordpress'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -528,7 +460,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 17,
     type: 'BANDURRIA DECO INSTITUCIONAL',
     image: BanduLandingImg,
-    tag: ['All', 'Todos', 'Wordpress', 'Landing Page'],
+    tag: ['Todos', 'Wordpress', 'Landing Page'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -547,7 +479,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 18,
     type: 'GME ALLIANCE',
     image: GmeImg,
-    tag: ['All', 'Todos', 'Wordpress', 'Landing Page'],
+    tag: ['Todos', 'Wordpress', 'Landing Page'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -566,7 +498,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 19,
     type: 'CONVERSOR DE CRIPTOMONEDAS',
     image: CryptoConversorWebImg,
-    tag: ['All', 'Todos', 'React JS', 'WebApp'],
+    tag: ['Todos', 'React JS', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -587,7 +519,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 20,
     type: 'Bucador de Recetas de Bebidas',
     image: DrinkIng,
-    tag: ['All', 'Todos', 'React JS', 'WebApp'],
+    tag: ['Todos', 'React JS', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -608,7 +540,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 21,
     type: 'MERN TASKS',
     image: MernTasks,
-    tag: ['All', 'Todos', 'React JS', 'Node JS', 'Mongo DB', 'WebApp'],
+    tag: ['Todos', 'React JS', 'Node JS', 'Mongo DB', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -630,7 +562,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 22,
     type: 'NODESEND',
     image: NodeSend,
-    tag: ['All', 'Todos', 'React JS', 'Node JS', 'Mongo DB', 'WebApp'],
+    tag: ['Todos', 'React JS', 'Node JS', 'Mongo DB', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -651,7 +583,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 23,
     type: 'ANIMATED APP',
     image: Animated,
-    tag: ['All', 'Todos', 'React Native', 'Mobile App'],
+    tag: ['Todos', 'React Native', 'Mobile App'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -671,7 +603,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 24,
     type: 'WEATHER APP',
     image: WeatherApp,
-    tag: ['All', 'Todos', 'React Native', 'Mobile App'],
+    tag: ['Todos', 'React Native', 'Mobile App'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -691,7 +623,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 25,
     type: 'WEATHER WEB',
     image: WeatherWeb,
-    tag: ['All', 'Todos', 'React JS', 'WebApp'],
+    tag: ['Todos', 'React JS', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -710,7 +642,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 26,
     type: 'MASCOTAS APP',
     image: MascotasApp,
-    tag: ['All', 'Todos', 'React Native', 'Mobile App'],
+    tag: ['Todos', 'React Native', 'Mobile App'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -730,7 +662,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 27,
     type: 'CRYPTO APP',
     image: CryptoApp,
-    tag: ['All', 'Todos', 'React Native', 'Mobile App'],
+    tag: ['Todos', 'React Native', 'Mobile App'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -750,7 +682,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 28,
     type: 'CUSTOM STORYBOOK',
     image: CustomStorybook,
-    tag: ['Destacados', 'Featured', 'All', 'Todos', 'UI/UX', 'Storybook'],
+    tag: ['Todos', 'UI/UX', 'Storybook'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -770,7 +702,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 29,
     type: 'OVERSOFT STORYBOOK',
     image: OversoftStorybook,
-    tag: ['Destacados', 'Featured', 'All', 'Todos', 'UI/UX', 'Storybook'],
+    tag: ['Todos', 'UI/UX', 'Storybook'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -790,15 +722,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 30,
     type: 'BANCO SANTANDER RIO',
     image: Santander,
-    tag: [
-      'Destacados',
-      'Featured',
-      'All',
-      'Todos',
-      'WebApp',
-      'React JS',
-      'Next JS',
-    ],
+    tag: ['Destacados', 'Todos', 'WebApp', 'React JS', 'Next JS'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -817,7 +741,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 31,
     type: 'POC: NX MONOREPO CON MODULE FEDERATION',
     image: NxMf,
-    tag: ['Destacados', 'Featured', 'All', 'Todos', 'Microfrontends', 'Nx'],
+    tag: ['Todos', 'Microfrontends', 'Nx'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -836,7 +760,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     id: 32,
     type: 'POC: NX CON MONOREPO INTEGRADO',
     image: NxMf,
-    tag: ['Destacados', 'Featured', 'All', 'Todos', 'Microfrontends', 'Nx'],
+    tag: ['Destacados', 'Todos', 'Microfrontends', 'Nx'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -852,6 +776,35 @@ export const PortfolioDataEs: IPortfolioData[] = [
       },
     ],
   },
+  {
+    id: 33,
+    type: 'DeFi Token Manager',
+    image: TokenManager,
+    tag: [
+      'Destacados',
+      'Featured',
+      'All',
+      'Todos',
+      'Vite JS',
+      'Web3/Blockchain',
+      'DApp',
+      'Tailwind CSS',
+    ],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'DeFi Token Manager',
+        client: 'Wonderland',
+        language:
+          'Wagmi, Typescript, Vite JS, Tailwind CSS, React Query, Zustand, WalletConnect, Metamask',
+        preview: 'Preview',
+        link: 'https://defi-token-manager.netlify.app',
+        repoLink: 'https://github.com/e-burgos/defi-token-manager',
+        accessType: 'public',
+        details: `Token manager es una plataforma DeFi para la gestión de tokens. El proposito de este proyecto es crear una plataforma intuitiva y fácil de usar para demostrar la transferencia, aprobación y distribución de tokens.`,
+      },
+    ],
+  },
 ];
 
 export const PortfolioDataEn: IPortfolioData[] = [
@@ -859,7 +812,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 1,
     type: 'Microfrontends with React Query',
     image: MicrofrontImg,
-    tag: ['Featured', 'All', 'Todos', 'Microfrontends', 'React JS', 'WebApp'],
+    tag: ['All', 'Microfrontends', 'React JS', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -879,15 +832,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 2,
     type: 'MI MOVISTAR',
     image: MovistarImg,
-    tag: [
-      'Featured',
-      'All',
-      'Todos',
-      'Next JS',
-      'Node JS',
-      'React Native',
-      'WebApp',
-    ],
+    tag: ['Featured', 'All', 'Next JS', 'Node JS', 'React Native', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -907,15 +852,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 3,
     type: 'Membrane Labs',
     image: MembraneLabs,
-    tag: [
-      'Featured',
-      'All',
-      'Todos',
-      'Vite JS',
-      'Web3/Blockchain',
-      'DApp',
-      'MUI',
-    ],
+    tag: ['Featured', 'All', 'Vite JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalType: 'youtube',
     videoLink: 'https://www.youtube.com/embed/7wmCDboQhOo?si=Iias1ZtC0-34qjyU',
@@ -936,7 +873,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 4,
     type: 'Celesi',
     image: Celesi,
-    tag: ['Featured', 'All', 'Todos', 'Next JS', 'WebApp', 'E-commerce'],
+    tag: ['All', 'Next JS', 'WebApp', 'E-commerce'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -955,7 +892,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 5,
     type: 'Coolco',
     image: Coolco,
-    tag: ['Featured', 'All', 'Todos', 'Next JS', 'Web3/Blockchain', 'WebApp'],
+    tag: ['All', 'Next JS', 'Web3/Blockchain', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -976,15 +913,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 6,
     type: 'Sugar Kingdom Odyssey Landing Page',
     image: SugarLanding,
-    tag: [
-      'Featured',
-      'All',
-      'Todos',
-      'React JS',
-      'MUI',
-      'Web3/Blockchain',
-      'Landing Page',
-    ],
+    tag: ['All', 'React JS', 'MUI', 'Web3/Blockchain', 'Landing Page'],
     delayAnimation: '200',
     modalType: 'youtube',
     videoLink:
@@ -1007,15 +936,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 7,
     type: 'Sugar Kingdom Odyssey Game DApp',
     image: SugarGame,
-    tag: [
-      'Featured',
-      'All',
-      'Todos',
-      'React JS',
-      'Web3/Blockchain',
-      'Vite JS',
-      'DApp',
-    ],
+    tag: ['All', 'React JS', 'Web3/Blockchain', 'Vite JS', 'DApp'],
     delayAnimation: '200',
     modalType: 'youtube',
     videoLink:
@@ -1038,7 +959,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 8,
     type: 'Sugar Kingdom Odyssey Staking Dapp',
     image: SugarStaking,
-    tag: ['Featured', 'All', 'Todos', 'Next JS', 'Web3/Blockchain', 'DApp'],
+    tag: ['All', 'Next JS', 'Web3/Blockchain', 'DApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1060,15 +981,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 9,
     type: 'PERSONAL CV',
     image: CvGastby,
-    tag: [
-      'Featured',
-      'All',
-      'Todos',
-      'Gatsby JS',
-      'Node JS',
-      'GraphQL',
-      'WebApp',
-    ],
+    tag: ['All', 'Gatsby JS', 'Node JS', 'GraphQL', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1090,7 +1003,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 10,
     type: 'OPTICA PINBLACK',
     image: PinblackImg,
-    tag: ['Featured', 'All', 'Todos', 'E-commerce', 'Wordpress'],
+    tag: ['Todos', 'E-commerce', 'Wordpress'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1109,7 +1022,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 11,
     type: 'BLOCKLIT',
     image: Blocklit,
-    tag: ['All', 'Todos', 'React JS', 'Landing Page'],
+    tag: ['All', 'React JS', 'Landing Page'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1128,7 +1041,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 12,
     type: 'Gogrow Challenge',
     image: GoGrow,
-    tag: ['All', 'Todos', 'React JS', 'Landing Page'],
+    tag: ['All', 'React JS', 'Landing Page'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1150,7 +1063,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 13,
     type: 'NextJS Challenge Sample Survey Web3',
     image: Quiz,
-    tag: ['All', 'Todos', 'Next JS', 'Web3/Blockchain', 'DApp', 'MUI'],
+    tag: ['All', 'Next JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1180,7 +1093,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 14,
     type: 'ViteJS Challenge Sample Survey Web3',
     image: Quiz2,
-    tag: ['All', 'Todos', 'Vite JS', 'Web3/Blockchain', 'DApp', 'MUI'],
+    tag: ['All', 'Vite JS', 'Web3/Blockchain', 'DApp', 'MUI'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1211,7 +1124,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 15,
     type: 'CHARMING STEP',
     image: CharmingImg,
-    tag: ['All', 'Todos', 'E-commerce', 'Wordpress'],
+    tag: ['All', 'E-commerce', 'Wordpress'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1230,7 +1143,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 16,
     type: 'BANDURRIA DECO',
     image: BanduTiendaImg,
-    tag: ['All', 'Todos', 'E-commerce', 'Wordpress'],
+    tag: ['All', 'E-commerce', 'Wordpress'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1250,7 +1163,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 17,
     type: 'BANDURRIA DECO INSTITUCIONAL',
     image: BanduLandingImg,
-    tag: ['All', 'Todos', 'Wordpress', 'Landing Page'],
+    tag: ['All', 'Wordpress', 'Landing Page'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1269,7 +1182,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 18,
     type: 'GME ALLIANCE',
     image: GmeImg,
-    tag: ['All', 'Todos', 'Wordpress', 'Landing Page'],
+    tag: ['All', 'Wordpress', 'Landing Page'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1288,7 +1201,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 19,
     type: 'CONVERSOR DE CRIPTOMONEDAS',
     image: CryptoConversorWebImg,
-    tag: ['All', 'Todos', 'React JS', 'WebApp'],
+    tag: ['All', 'React JS', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1309,7 +1222,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 20,
     type: 'Bucador de Recetas de Bebidas',
     image: DrinkIng,
-    tag: ['All', 'Todos', 'React JS', 'WebApp'],
+    tag: ['All', 'React JS', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1330,7 +1243,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 21,
     type: 'MERN TASKS',
     image: MernTasks,
-    tag: ['All', 'Todos', 'React JS', 'Node JS', 'Mongo DB', 'WebApp'],
+    tag: ['All', 'React JS', 'Node JS', 'Mongo DB', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1352,7 +1265,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 22,
     type: 'NODESEND',
     image: NodeSend,
-    tag: ['All', 'Todos', 'React JS', 'Node JS', 'Mongo DB', 'WebApp'],
+    tag: ['All', 'React JS', 'Node JS', 'Mongo DB', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1373,7 +1286,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 23,
     type: 'ANIMATED APP',
     image: Animated,
-    tag: ['All', 'Todos', 'React Native', 'Mobile App'],
+    tag: ['All', 'React Native', 'Mobile App'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1395,7 +1308,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 24,
     type: 'WEATHER APP',
     image: WeatherApp,
-    tag: ['All', 'Todos', 'React Native', 'Mobile App'],
+    tag: ['All', 'React Native', 'Mobile App'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1416,7 +1329,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 25,
     type: 'WEATHER WEB',
     image: WeatherWeb,
-    tag: ['All', 'Todos', 'React JS', 'WebApp'],
+    tag: ['All', 'React JS', 'WebApp'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1436,7 +1349,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 26,
     type: 'MASCOTAS APP',
     image: MascotasApp,
-    tag: ['All', 'Todos', 'React Native', 'Mobile App'],
+    tag: ['All', 'React Native', 'Mobile App'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1457,7 +1370,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 27,
     type: 'CRYPTO APP',
     image: CryptoApp,
-    tag: ['All', 'Todos', 'React Native', 'Mobile App'],
+    tag: ['All', 'React Native', 'Mobile App'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1478,7 +1391,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 28,
     type: 'CUSTOM STORYBOOK',
     image: CustomStorybook,
-    tag: ['Featured', 'All', 'Todos', 'UI/UX', 'Storybook'],
+    tag: ['All', 'UI/UX', 'Storybook'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1499,7 +1412,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 29,
     type: 'OVERSOFT STORYBOOK',
     image: OversoftStorybook,
-    tag: ['Featured', 'All', 'Todos', 'UI/UX', 'Storybook'],
+    tag: ['All', 'Todos', 'UI/UX', 'Storybook'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1520,7 +1433,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 30,
     type: 'BANCO SANTANDER RIO',
     image: Santander,
-    tag: ['Featured', 'All', 'WebApp', 'React JS', 'Next JS', 'Todos'],
+    tag: ['Featured', 'All', 'WebApp', 'React JS', 'Next JS'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1540,7 +1453,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 31,
     type: 'POC: NX MONOREPO WITH MODULE FEDERATION',
     image: NxMf,
-    tag: ['Destacados', 'Featured', 'All', 'Todos', 'Microfrontends', 'Nx'],
+    tag: ['All', 'Microfrontends', 'Nx'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1560,7 +1473,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     id: 32,
     type: 'POC: NX WITH INTEGRATED MONOREPO',
     image: NxMf,
-    tag: ['Destacados', 'Featured', 'All', 'Todos', 'Microfrontends', 'Nx'],
+    tag: ['Featured', 'All', 'Microfrontends', 'Nx'],
     delayAnimation: '200',
     modalDetails: [
       {
@@ -1573,6 +1486,34 @@ export const PortfolioDataEn: IPortfolioData[] = [
         accessType: 'public',
         details: `Microfrontends infrastructure with shared server and client states. Proof of concept of a monorepo with Nx and Vite JS. The idea is to create a scalable and maintainable architecture for the development of microfrontends. Host application is the main application that will import others applications and works as orchestrator. This app will be the main entry point of the project.
         `,
+      },
+    ],
+  },
+  {
+    id: 33,
+    type: 'DeFi Token Manager',
+    image: TokenManager,
+    tag: [
+      'Featured',
+      'All',
+      'Vite JS',
+      'Web3/Blockchain',
+      'DApp',
+      'Tailwind CSS',
+      'Nx',
+    ],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'DeFi Token Manager',
+        client: 'Wonderland',
+        language:
+          'Wagmi, Typescript, Vite JS, Tailwind CSS, React Query, Zustand, WalletConnect, Metamask',
+        preview: 'Preview',
+        link: 'https://defi-token-manager.netlify.app',
+        repoLink: 'https://github.com/e-burgos/defi-token-manager',
+        accessType: 'public',
+        details: `Token manager is a DeFi platform for token management. The purpose of this project is to create an intuitive and easy-to-use platform to demonstrate the transfer, approval and distribution of tokens.`,
       },
     ],
   },

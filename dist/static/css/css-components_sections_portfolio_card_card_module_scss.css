@@ -1,0 +1,50 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./components/sections/portfolio/card/card.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.card_card__OFSEW {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  max-width: 100%;
+  max-height: 400px;
+  background-color: #282c34;
+  background: linear-gradient(rgba(26, 28, 45, 0), #1a1c2d);
+  box-shadow: 0 7px 20px 5px rgba(0, 0, 0, 0.5333333333);
+  border-radius: 0.7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: 0.5s all;
+}
+.card_card__OFSEW .card_main__LxQg0 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 1rem;
+}
+.card_card__OFSEW .card_main__LxQg0 .card_tokenImage__Jbxux {
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.card_card__OFSEW ::before {
+  position: fixed;
+  content: "";
+  box-shadow: 0 0 100px 40px rgba(255, 255, 255, 0.031372549);
+  top: -10%;
+  left: -100%;
+  transform: rotate(-45deg);
+  height: 60rem;
+  transition: 0.7s all;
+}
+.card_card__OFSEW:hover {
+  box-shadow: 0 7px 50px 10px rgba(0, 0, 0, 0.6666666667);
+  transform: scale(1.015);
+  filter: brightness(1.3);
+}
+.card_card__OFSEW:hover ::before {
+  filter: brightness(0.5);
+  top: -100%;
+  left: 200%;
+}

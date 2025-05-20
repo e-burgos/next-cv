@@ -1,8 +1,7 @@
-import React, { FC, useCallback, useState } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import React, { FC, useCallback, useEffect, useState } from 'react';
+import { Tabs } from 'react-tabs';
 import ModalMain from './modal/modal-main';
 import { IPortfolio, IPortfolioData, ITag } from '@/data/portfolio';
-import Card from './card';
 import { useLanguage } from '@/store/useLanguage';
 import PortfolioTabContent from './portfolio-tab-content';
 import PortfolioTabList from './portfolio-tab-list';
@@ -33,6 +32,7 @@ const Portfolio: FC<IPortfolioProps> = ({ data }) => {
     'Storybook',
     'Nx',
     'MUI',
+    'Tailwind CSS',
     'GraphQL',
     'Wordpress',
     'Web3/Blockchain',
@@ -87,6 +87,12 @@ const Portfolio: FC<IPortfolioProps> = ({ data }) => {
     setGetModal(true);
     setModalData(modalData);
   };
+
+  useEffect(() => {
+    setFilter(categoryTabs);
+    setTabSelected(featuredTabLang);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentLang]);
 
   return (
     <>
