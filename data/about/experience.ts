@@ -23,7 +23,7 @@ export const experienceEs: IExperience = {
     {
       year: '2025 • november 2025 - (actualidad)',
       position: 'Sr. Web3 Frontend Engineer',
-      companyName: 'Obinex S.A. · Jornada parcial',
+      companyName: 'Obinex · Jornada parcial',
       link: 'https://www.linkedin.com/company/obinex',
       btn1: 'Ver más',
       btn2: 'Ver menos',
@@ -309,7 +309,7 @@ export const experienceEn: IExperience = {
     {
       year: '2025 • november 2025 - (current)',
       position: 'Sr. Web3 Frontend Engineer',
-      companyName: 'Obinex S.A. · Part time',
+      companyName: 'Obinex · Part time',
       link: 'https://www.linkedin.com/company/obinex',
       btn1: 'See more',
       btn2: 'See less',
