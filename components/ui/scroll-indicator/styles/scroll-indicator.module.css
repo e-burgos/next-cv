@@ -1,0 +1,142 @@
+.scrollIndicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 1rem 0 3rem 0;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.scrollIndicator:hover {
+  transform: translateY(-5px);
+}
+
+.scrollTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.scrollText {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--main-primary-color);
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  margin: 0;
+}
+
+.scrollIndicator:hover .scrollText {
+  color: var(--main-secondary-color);
+}
+
+.scrollIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mouse {
+  width: 30px;
+  height: 50px;
+  border: 2px solid var(--main-primary-color);
+  border-radius: 15px;
+  position: relative;
+  transition: border-color 0.3s ease;
+}
+
+.scrollIndicator:hover .mouse {
+  border-color: var(--main-secondary-color);
+}
+
+.wheel {
+  width: 4px;
+  height: 10px;
+  background: var(--main-primary-color);
+  border-radius: 2px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scroll 2s infinite;
+  transition: background-color 0.3s ease;
+}
+
+.scrollIndicator:hover .wheel {
+  background: var(--main-secondary-color);
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+
+/* Pulse effect on hover */
+.scrollIndicator::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(
+    circle,
+    rgba(var(--main-primary-color-rgb), 0.1) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.scrollIndicator:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .scrollIndicator {
+    padding: 1.5rem 0;
+  }
+
+  .scrollTextContainer {
+    gap: 0.5rem;
+    flex-direction: row;
+  }
+
+  .scrollText {
+    font-size: 1rem;
+  }
+
+  .mouse {
+    width: 25px;
+    height: 40px;
+  }
+
+  .wheel {
+    width: 3px;
+    height: 8px;
+    top: 6px;
+  }
+}

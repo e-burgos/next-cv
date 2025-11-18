@@ -30,13 +30,33 @@ const ExperienceItem = ({ item }: Props) => {
           {item.companyName}
         </a>
       </div>
-      <p className="open-sans-font mb-3">
-        {desc
-          ? `${item.details.substring(0, 200)} ${
-              item?.details?.length > 200 ? '...' : ''
-            }`
-          : item.details}
-      </p>
+      <div className="open-sans-font mb-3">
+        {(() => {
+          const text = desc
+            ? `${item.details.substring(0, 200)} ${
+                item?.details?.length > 200 ? '...' : ''
+              }`
+            : item.details;
+
+          // Divide the text by bullet points and create a list
+          const bulletPoints = text.split('•').filter((point) => point.trim());
+
+          if (bulletPoints.length > 1) {
+            return (
+              <ul className={`mb-0 ${styles.listUnstyled}`}>
+                {bulletPoints.map((point, index) => (
+                  <li key={index} className="bullet-point">
+                    {point.trim()}
+                  </li>
+                ))}
+              </ul>
+            );
+          } else {
+            // If there are no bullet points, show as a normal paragraph
+            return <p className="mb-0">{text}</p>;
+          }
+        })()}
+      </div>
       <button
         className={styles.button}
         onClick={() => setDesc(!desc)}

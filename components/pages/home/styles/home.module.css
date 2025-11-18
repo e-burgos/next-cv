@@ -1,0 +1,49 @@
+.homeContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileSection {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.profileContent {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.scrollSection {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+/* Asegurar que el scroll indicator esté en la parte inferior */
+.scrollIndicatorWrapper {
+  padding: 0;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profileSection {
+    min-height: 100vh;
+  }
+
+  .scrollSection {
+    position: relative;
+    bottom: auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}

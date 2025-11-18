@@ -95,11 +95,38 @@
   color: var(--main-secondary-color);
   font-weight: 700;
 }
+
 .about_button__GVFKk:disabled {
   background-color: #25252550;
   border: none;
   color: #ffffff50;
   font-weight: 700;
   cursor: not-allowed !important;
+}
+
+.about_listUnstyled__S70pr {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.about_listUnstyled__S70pr li {
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+  padding-left: 20px !important;
+  margin-bottom: 8px !important;
+}
+
+.about_listUnstyled__S70pr li::before {
+  content: '•';
+  color: var(--main-primary-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.about_listUnstyled__S70pr li::after {
+  border-left: 1px solid transparent !important;
 }
 

@@ -506,7 +506,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
     transform: none;
     width: 100%;
     display: block;
-    background: #2b2a2a;
+    background: #000000;
     padding: 8px;
     z-index: 10;
 
@@ -518,7 +518,11 @@ body.light .header ul.icon-menu li.icon-box:hover i {
         margin: 0 !important;
         width: 45px !important;
         height: 45px !important;
-        background: #444 !important;
+        background: linear-gradient(
+          135deg,
+          #2c3e50 0%,
+          #34495e 100%
+        ) !important;
         i {
           top: 14px;
         }
@@ -663,8 +667,14 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .home .home-details > div {
-  max-width: 550px;
+  max-width: 70%;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .home .home-details > div {
+    max-width: 90%;
+  }
 }
 
 .home .home-details h1 {
@@ -716,6 +726,8 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   .about .about-list li {
     flex: 0 0 100%;
     max-width: 100%;
+    display: flex;
+    gap: 5px;
   }
 }
 
@@ -1838,8 +1850,8 @@ body.light .contact .custom-span-contact a {
   position: relative;
   &.home {
     @media screen and (max-width: 991px) {
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 

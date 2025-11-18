@@ -15,11 +15,14 @@ const Menu: FC<MenuProps> = ({ currentTab }) => {
   const { content } = useContent();
   return (
     <div className="header">
-      <TabList className="icon-menu revealator-slideup revealator-once revealator-delay1">
+      <TabList
+        key={currentTab}
+        className="icon-menu revealator-slideup revealator-once revealator-delay1"
+      >
         {content.menu.map((item, i) => (
-          <>
+          <React.Fragment key={item.menuName}>
             {item.tabIndex === 'download' ? (
-              <MenuPdfButtonDownload />
+              <MenuPdfButtonDownload key={item.menuName} />
             ) : (
               <Tab
                 className={`icon-box ${
@@ -27,7 +30,7 @@ const Menu: FC<MenuProps> = ({ currentTab }) => {
                     ? 'react-tabs__tab--selected'
                     : ''
                 }`}
-                key={i}
+                key={item.menuName}
                 tabIndex={item.tabIndex}
                 onClick={() => router.push(item.url)}
               >
@@ -35,7 +38,7 @@ const Menu: FC<MenuProps> = ({ currentTab }) => {
                 <h2>{item.menuName}</h2>
               </Tab>
             )}
-          </>
+          </React.Fragment>
         ))}
       </TabList>
     </div>

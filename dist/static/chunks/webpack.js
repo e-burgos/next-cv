@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "a17a1f756a120b3f"; }
+/******/ 		__webpack_require__.h = function() { return "db47d593dc693314"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -791,7 +791,7 @@
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = function(chunkId, promises) {
-/******/ 			var cssChunks = {"css-components_switch_styles_switch-lang_module_css":1,"css-components_sections_profile_styles_profile_module_css":1,"css-components_sections_about_styles_about_module_css":1,"css-components_sections_portfolio_card_card_module_scss":1};
+/******/ 			var cssChunks = {"css-components_switch_styles_switch-lang_module_css":1,"css-components_sections_about_styles_about_module_css":1,"css-components_pages_home_styles_home_module_css-components_sections_featured-projects_featur-980faa":1,"css-components_sections_portfolio_card_card_module_scss":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(function() {

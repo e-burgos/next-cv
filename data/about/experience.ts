@@ -21,20 +21,40 @@ export const experienceEs: IExperience = {
   btnLabel: 'Ver más',
   data: [
     {
-      year: '2024 • enero de 2024 - (actualidad)',
+      year: '2025 • november 2025 - (actualidad)',
+      position: 'Sr. Web3 Frontend Engineer',
+      companyName: 'Obinex S.A. · Jornada parcial',
+      link: 'https://www.linkedin.com/company/obinex',
+      btn1: 'Ver más',
+      btn2: 'Ver menos',
+      details: `
+      • Liderando y gestionando equipos de desarrollo frontend Web3. 
+      • Experto en tecnologías como Wagmi, Ethers, RainbowKit, Typescript, React, Vite, ReactQuery, Nx, Tailwind CSS, Jira, Git, Github, Metodologías Ágiles, Figma. 
+      • Responsable de la construcción y mantenimiento de microfrontends y arquitecturas frontend. 
+      • Responsable de la coordinación de la resolución de incidentes, brindar orientación técnica, y asegurar la integración fluida de la interfaz de usuario en colaboración con otros equipos. 
+      • Comprometido con la mejora continua y la optimización del rendimiento del frontend.`,
+    },
+    {
+      year: '2024 • enero de 2024 - noviembre de 2025 (1 año 11 meses)',
       position: 'Frontend Developer web3',
       companyName: 'Membrane Labs · Jornada completa',
       link: 'https://www.linkedin.com/company/membranelabs/mycompany/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      • Membrane Labs ofrece servicios institucionales de activos digitales para transacciones OTC. Soy miembro del equipo encargado de diseñar y desarrollar servicios de liquidación e integraciones externas.
-      • Principales tecnologías y herramientas utilizadas: Typescript, React, Vite, ReactQuery, Mobx, MUI, Jira, Git, Github, Metodologías Ágiles, Figma.`,
+      • Desarrollo de interfaces frontend para servicios institucionales de activos digitales y transacciones OTC.
+• Diseño e implementación de servicios de liquidación y sistemas de integraciones externas.
+• Desarrollo de aplicaciones React con TypeScript utilizando arquitecturas modernas y escalables.
+• Implementación de gestión de estado con MobX y manejo de datos con ReactQuery.
+• Creación de componentes de interfaz utilizando Material-UI (MUI) siguiendo principios de diseño.
+• Configuración y optimización de herramientas de build con Vite para desarrollo ágil.
+• Colaboración en metodologías ágiles utilizando Jira para gestión de proyectos.
+• Trabajo con equipos multidisciplinarios usando Git/GitHub y herramientas de diseño como Figma.`,
     },
     {
       year: '2024 • enero de 2024 - (actualidad)',
       position: 'Frontend Blockchain Developer',
-      companyName: 'Rather Labs, Inc · Jornada completa',
+      companyName: 'Rather Labs, Inc · Contrato',
       link: 'https://www.linkedin.com/company/ratherlabs/mycompany/',
       btn1: 'Ver más',
       btn2: 'Ver menos',
@@ -76,10 +96,12 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Creamos soluciones innovadoras y personalizadas para empresas de todos los tamaños, 
-      desde pequeñas startups hasta grandes corporaciones. Nuestro compromiso es brindar 
-      servicios de desarrollo de software de alta calidad y ofrecer resultados excepcionales 
-      a nuestros clientes.`,
+      • Desarrollo de interfaces de usuario modernas y responsivas utilizando React.js, TypeScript y CSS.
+• Implementación de componentes reutilizables y mantenibles siguiendo las mejores prácticas de desarrollo.
+• Colaboración con equipos multidisciplinarios para crear soluciones personalizadas para startups y corporaciones.
+• Optimización de rendimiento frontend y experiencia de usuario en aplicaciones web complejas.
+• Integración con APIs RESTful y servicios backend para funcionalidades dinámicas.
+• Participación en revisiones de código y mentorías técnicas para mantener estándares de calidad.`,
     },
     {
       year: '2022 • agosto de 2022 - enero de 2024 · (1 año 6 meses)',
@@ -89,7 +111,14 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Experiencia en liderazgo y gestión de equipos de desarrollo Front End. Experto en tecnologías como HTML, CSS, JavaScript y frameworks basados en React. Responsable de coordinar la resolución de incidencias, brindar orientación técnica y asegurar la integración fluida de la interfaz de usuario en colaboración con otros equipos. Comprometido con la mejora continua y la optimización del rendimiento del sitio web. Habilidades destacadas incluyen gestión de equipos, resolución de problemas técnicos, implementación de nuevas tecnologías y atención al cliente en inquietudes técnicas.`,
+      • Liderazgo y gestión de equipos de desarrollo Frontend especializados en tecnologías React.
+• Coordinación de resolución de incidencias técnicas y soporte a equipos de desarrollo.
+• Implementación de mejores prácticas en HTML, CSS, JavaScript y frameworks modernos.
+• Asegurar la integración fluida entre interfaces de usuario y sistemas backend.
+• Optimización continua del rendimiento web y experiencia de usuario.
+• Gestión de problemas técnicos complejos y implementación de nuevas tecnologías.
+• Atención especializada a clientes en consultas técnicas y resolución de problemas.
+• Mentorías técnicas y desarrollo profesional del equipo Frontend.`,
     },
     {
       year: '2022 • enero de 2022 - junio de 2023 · (1 año 6 meses)',
@@ -99,9 +128,14 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Estamos cambiando una de las industrias más tradicionales del mundo, haciendo de la tecnología su core. Queremos ser la mejor plataforma abierta de servicios financieros. El objetivo es enorme y solamente podemos alcanzarlo si somos capaces de armar grandes equipos.
-      Si siempre quisiste ser parte de desafíos de alto impacto, sumate al proyecto B2C más grande de la industria tecnológica en Argentina.Estamos cambiando una de las industrias más tradicionales del mundo, haciendo de la tecnología su core. Queremos ser la mejor plataforma abierta de servicios financieros. El objetivo es enorme y solamente podemos alcanzarlo si somos capaces de armar grandes equipos. Si siempre quisiste ser parte de desafíos de alto impacto, sumate al proyecto B2C más grande de la industria tecnológica en Argentina.
-      Aptitudes: Definición de requisitos · Estándares web · Prueba unitaria · Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · TypeScript · Desarrollo Full Stack · Node.js · Express.js · Webpack · Website Development · Git · Scrum · Trabajo en equipo · MySQL `,
+      • Desarrollo de aplicaciones React.js para el proyecto B2C más grande de la industria tecnológica en Argentina.
+• Implementación de interfaces de usuario modernas para servicios financieros digitales.
+• Aplicación de estándares web y mejores prácticas en desarrollo frontend con TypeScript.
+• Desarrollo Full Stack utilizando Node.js, Express.js y bases de datos MySQL.
+• Implementación de pruebas unitarias y aseguramiento de calidad del código.
+• Configuración y optimización de Webpack para mejorar el rendimiento de aplicaciones.
+• Definición de requisitos técnicos y colaboración en metodologías ágiles (Scrum).
+• Trabajo en equipo multidisciplinario para transformar la industria financiera tradicional.`,
     },
     {
       year: '2021 • junio de 2021 - enero de 2022 · (8 meses)',
@@ -111,7 +145,14 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Aptitudes: Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · TypeScript · Desarrollo Full Stack · Node.js · React Native · Webpack · Website Development · Git · Scrum · Trabajo en equipo · Liderazgo de equipos · MySQL`,
+      • Liderazgo y gestión de equipos de desarrollo Full Stack en proyectos empresariales de gran escala.
+• Desarrollo de aplicaciones web robustas utilizando React.js, TypeScript, JavaScript, HTML y CSS.
+• Implementación de arquitecturas Full Stack con Node.js, Express.js y bases de datos MySQL.
+• Desarrollo de aplicaciones móviles híbridas con React Native.
+• Configuración y optimización de herramientas de build como Webpack para mejorar el rendimiento.
+• Aplicación de metodologías ágiles (Scrum) para la gestión eficiente de proyectos.
+• Gestión de control de versiones con Git y colaboración en equipos multidisciplinarios.
+• Responsable de la mentoría técnica y el desarrollo profesional del equipo.`,
     },
     {
       year: '2021 • enero de 2020 - enero de 2022 · (2 años 1 mes)',
@@ -121,12 +162,15 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Mi enfoque profesional se centra en el desarrollo de aplicaciones web robustas, ordenadas y seguras, siguiendo las mejores prácticas actuales. Tengo amplia experiencia en tecnologías tanto de backend como de frontend, trabajando con JavaScript, HTML, CSS, Node.js, Express.js y React.js a diario. Además, utilizo Restful Web Services y diversas bases de datos como MongoDB, MySQL y Firebase, según las necesidades del proyecto.
-      Estoy familiarizado con otras tecnologías, como JWT, AWS, Bootstrap 4, Tailwind CSS, Sequelize.js, Mongoose, EJS, Ruby on Rails y Wordpress, entre otras.
-      Para garantizar una correcta implementación, me gusta realizar el despliegue de mis proyectos en plataformas de servicios como Heroku, Netlify o Vercel, para realizar pruebas exhaustivas.
-      La comunicación es fundamental para mí, tanto en el código como en el equipo de trabajo. Utilizo GIT a diario y herramientas como Trello, Slack, Discord y G-Suite para una comunicación y organización eficientes.
-      Me apasionan los proyectos desafiantes, ya que considero que son una oportunidad para adquirir nuevos conocimientos y disfrutar la satisfacción de superar obstáculos que ponen a prueba mis habilidadesMi enfoque profesional se centra en el desarrollo de aplicaciones web robustas, ordenadas y seguras, siguiendo las mejores prácticas actuales. Tengo amplia experiencia en tecnologías tanto de backend como de frontend, trabajando con JavaScript, HTML, CSS, Node.js, Express.js y React.js a diario. Además, utilizo Restful Web Services y diversas bases de datos como MongoDB, MySQL y Firebase, según las necesidades del proyecto. Estoy familiarizado con otras tecnologías, como JWT, AWS, Bootstrap 4, Tailwind CSS, Sequelize.js, Mongoose, EJS, Ruby on Rails y Wordpress, entre otras. Para garantizar una correcta implementación, me gusta realizar el despliegue de mis proyectos en plataformas de servicios como Heroku, Netlify o Vercel, para realizar pruebas exhaustivas. La comunicación es fundamental para mí, tanto en el código como en el equipo de trabajo. Utilizo GIT a diario y herramientas como Trello, Slack, Discord y G-Suite para una comunicación y organización eficientes. Me apasionan los proyectos desafiantes, ya que considero que son una oportunidad para adquirir nuevos conocimientos y disfrutar la satisfacción de superar obstáculos que ponen a prueba mis habilidades
-      Aptitudes: Aplicaciones web · Desarrollo front end · React.js · JavaScript · CSS · HTML · English · TypeScript · Desarrollo Full Stack · Express.js · React Native · Web Design · Webpack · Website Development · Blockchain · Git · MySQL · WordPress · Firebase · jQuery`,
+• Desarrollo de aplicaciones web robustas y seguras siguiendo las mejores prácticas actuales del sector.
+• Experiencia Full Stack con tecnologías frontend (React.js, JavaScript, TypeScript, HTML, CSS) y backend (Node.js, Express.js).
+• Implementación de APIs RESTful y integración con bases de datos (MongoDB, MySQL, Firebase).
+• Desarrollo de aplicaciones móviles híbridas con React Native y diseño web responsivo.
+• Experiencia con tecnologías complementarias: JWT, AWS, Bootstrap, Tailwind CSS, Sequelize.js, Mongoose, Ruby on Rails, WordPress.
+• Despliegue y testing de aplicaciones en plataformas cloud (Heroku, Netlify, Vercel).
+• Gestión de proyectos con herramientas de colaboración (Git, Trello, Slack, Discord, G-Suite).
+• Desarrollo de soluciones blockchain y aplicaciones web3 con tecnologías emergentes.
+• Enfoque en proyectos desafiantes que requieren aprendizaje continuo y resolución de problemas complejos.`,
     },
     {
       year: '2016 - 2021 • enero de 2016 - abril de 2021 · (5 años 4 meses)',
@@ -151,10 +195,12 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      • Elaboración y manejo del Product Backlog. Gestión de presupuesto y determinación de requisitos generales y actividades iniciales del proyecto.
-      • Representar a los usuarios del producto y asegurar los recursos financierosque requiere el proyecto para su inicio y desarrollo. 
-      • Análisis de la viabilidad delemprendimiento para garantizar que el producto sea entregado. 
-      • Desarrollo y establecimiento de criterios para aceptar las historias de los usuarios; aprobar o negar los productos`,
+      • Elaboración y gestión del Product Backlog con definición de prioridades y requisitos del proyecto.
+• Gestión de presupuesto y determinación de requisitos generales para actividades iniciales.
+• Representación de usuarios del producto y aseguramiento de recursos financieros necesarios.
+• Análisis de viabilidad del emprendimiento para garantizar la entrega exitosa del producto.
+• Desarrollo y establecimiento de criterios de aceptación para historias de usuario.
+• Aprobación y validación de entregables del producto según estándares de calidad establecidos.`,
     },
     {
       year: '2019 - 2020 • marzo de 2019 - marzo de 2020 (1 año 1 mes)',
@@ -164,7 +210,12 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Asesoría y organización de equipo de trabajo, eliminación de impedimentos para asegurar objetivos en tiempo y forma, facilitador en presentaciones de sprints ante stackholders, llevar a cabo los dailies standups, administación y gestión de Product Backlog.`,
+      • Asesoría y organización de equipos de trabajo aplicando metodologías ágiles Scrum.
+• Eliminación de impedimentos para asegurar el cumplimiento de objetivos en tiempo y forma.
+• Facilitación de presentaciones de sprints ante stakeholders y equipos directivos.
+• Conducción de daily standups y ceremonias ágiles para mantener la comunicación del equipo.
+• Administración y gestión del Product Backlog con priorización de funcionalidades.
+• Coaching del equipo en prácticas ágiles y mejora continua de procesos.`,
     },
     {
       year: '2017 - 2019 • marzo de 2017 - marzo de 2019 (2 años 1 mes)',
@@ -174,7 +225,12 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Funciones principales centradas en la identificación de oportunidades de negocio; creación y clasificación de nuevas ideas; co-diseño del producto; optimizaciones y mejoras; liderazgo de equipos y buenas prácticas de lanzamiento entre otras.`,
+      • Identificación y análisis de oportunidades de negocio para el desarrollo de nuevos productos.
+• Creación, evaluación y clasificación de ideas innovadoras para el portafolio de productos.
+• Co-diseño de productos colaborando con equipos de desarrollo, UX/UI y marketing.
+• Implementación de optimizaciones y mejoras continuas basadas en feedback de usuarios.
+• Liderazgo de equipos multidisciplinarios para el desarrollo y lanzamiento de productos.
+• Establecimiento de buenas prácticas para lanzamientos exitosos y gestión del ciclo de vida del producto.`,
     },
     {
       year: '2014 - 2016 • febrero de 2014 - enero de 2016 (2 años)',
@@ -184,9 +240,12 @@ export const experienceEs: IExperience = {
       btn1: 'Ver más',
       btn2: 'Ver menos',
       details: `
-      Mi trabajo se centra en velar por el correcto funcionamiento de las redes y software necesarios para NMS. Así también mantener el nexo con nuestros clientes estableciendo negociaciones de infraestructura.
-      Continuamente implementamos nuevas tecnologías en el campo de la telecomunicación lo que genera un plus para nuestros clientes. 
-      El área de software y IT impulsan el desarrollo de sistemas cooperativos en tiempo real, donde se integran todos los actores de la empresa apoyandose fuertemente en el uso de gestión webs, apps y el internet de las cosas.`,
+      • Gestión y supervisión del correcto funcionamiento de redes y sistemas de software corporativos.
+• Establecimiento y mantenimiento de relaciones con clientes para negociaciones de infraestructura.
+• Implementación continua de nuevas tecnologías en el campo de las telecomunicaciones.
+• Desarrollo de sistemas cooperativos en tiempo real integrando todos los actores de la empresa.
+• Liderazgo en la adopción de tecnologías web, aplicaciones móviles e Internet de las Cosas (IoT).
+• Optimización de procesos IT para generar valor agregado y ventajas competitivas para los clientes.`,
     },
     {
       year: '2013 - 2014 • marzo de 2013 - enero de 2014 (11 meses)',
@@ -248,20 +307,40 @@ export const experienceEn: IExperience = {
   btnLabel: 'See more',
   data: [
     {
-      year: '2024 • january 2024 - (current)',
-      position: 'Frontend Developer web3',
+      year: '2025 • november 2025 - (current)',
+      position: 'Sr. Web3 Frontend Engineer',
+      companyName: 'Obinex S.A. · Part time',
+      link: 'https://www.linkedin.com/company/obinex',
+      btn1: 'See more',
+      btn2: 'See less',
+      details: `
+      • Leading and managing Web3 frontend development teams. 
+      • Expert in technologies such as Wagmi, Ethers, RainbowKit, Typescript, React, Vite, ReactQuery, Nx, Tailwind CSS, Jira, Git, Github, Agile Methodologies, Figma. 
+      • Responsible for building and maintaining microfrontends and frontend architectures. 
+      • Responsible for coordinating incident resolution, providing technical guidance, and ensuring smooth integration of the user interface in collaboration with other teams. 
+      • Committed to continuous improvement and optimizing frontend performance.`,
+    },
+    {
+      year: '2024 • january 2024 - november 2025 (1 year 11 months)',
+      position: 'Sr. Frontend Developer web3',
       companyName: 'Membrane Labs · Full time',
       link: 'https://www.linkedin.com/company/membranelabs/mycompany/',
       btn1: 'See more',
       btn2: 'See less',
       details: `
-      • Membrane Labs offers institutional digital asset services for OTC transactions. I am a member of the team responsible for designing and developing settlement services and external integrations.
-      • Main technologies and tools used: Typescript, React, Vite, ReactQuery, Mobx, MUI, Jira, Git, Github, Agile Methodologies, Figma.`,
+• Development of frontend interfaces for institutional digital asset services and OTC transactions.
+• Design and implementation of settlement services and external integration systems.
+• Development of React applications with TypeScript using modern and scalable architectures.
+• Implementation of state management with MobX and data handling with ReactQuery.
+• Creation of interface components using Material-UI (MUI) following design principles.
+• Configuration and optimization of build tools with Vite for agile development.
+• Collaboration in agile methodologies using Jira for project management.
+• Work with multidisciplinary teams using Git/GitHub and design tools like Figma.`,
     },
     {
       year: '2024 • january 2024 - (current)',
       position: 'Frontend Blockchain Developer',
-      companyName: 'Rather Labs, Inc · Full time',
+      companyName: 'Rather Labs, Inc · Contract',
       link: 'https://www.linkedin.com/company/ratherlabs/mycompany/',
       btn1: 'See more',
       btn2: 'See less',
@@ -303,7 +382,12 @@ export const experienceEn: IExperience = {
       btn1: 'See more',
       btn2: 'See less',
       details: `
-      We create innovative and customized solutions for companies of all sizes, from small startups to large corporations. Our commitment is to provide high quality software development services and deliver exceptional results to our clients.`,
+• Development of modern and responsive user interfaces using React.js, TypeScript, and CSS.
+• Implementation of reusable and maintainable components following development best practices.
+• Collaboration with multidisciplinary teams to create customized solutions for startups and corporations.
+• Frontend performance optimization and user experience in complex web applications.
+• Integration with RESTful APIs and backend services for dynamic functionalities.
+• Participation in code reviews and technical mentoring to maintain quality standards.`,
     },
     {
       year: '2022 • august 2022 - january 2024 · (1 year 6 months)',
@@ -313,8 +397,14 @@ export const experienceEn: IExperience = {
       btn1: 'See more',
       btn2: 'See less',
       details: `
-      Experience in leading and managing Front End development teams. Expert in technologies such as HTML, CSS, JavaScript and React-based frameworks. Responsible for coordinating incident resolution, providing technical guidance, and ensuring smooth integration of the user interface in collaboration with other teams. Committed to continuous improvement and optimizing website performance. Key skills include team management, technical troubleshooting, implementation of new technologies, and customer service on technical concerns.
-      `,
+• Leadership and management of Frontend development teams specialized in React technologies.
+• Coordination of technical incident resolution and support for development teams.
+• Implementation of best practices in HTML, CSS, JavaScript, and modern frameworks.
+• Ensuring smooth integration between user interfaces and backend systems.
+• Continuous optimization of web performance and user experience.
+• Management of complex technical problems and implementation of new technologies.
+• Specialized customer service for technical inquiries and problem resolution.
+• Technical mentoring and professional development of Frontend team members.`,
     },
     {
       year: '2022 • january 2022 - june 2023 · (1 year 6 months)',
@@ -323,10 +413,15 @@ export const experienceEn: IExperience = {
       link: 'https://www.linkedin.com/company/santandertec/',
       btn1: 'See more',
       btn2: 'See less',
-      details: `We are changing one of the most traditional industries in the world, making technology its core. We want to be the best open platform for financial services. The goal is huge and we can only achieve it if we are able to put together great teams.
-      If you always wanted to be part of high-impact challenges, join the largest B2C project in the technology industry in Argentina.
-      Skills: Requirements definition · Web standards · Unit testing · Web applications · Front end development · React.js · JavaScript · CSS · HTML · TypeScript · Full Stack development · Node.js · Express.js · Webpack · Website Development · Git · Scrum · Teamwork · MySQL
-      `,
+      details: `
+• Development of React.js applications for the largest B2C project in Argentina's technology industry.
+• Implementation of modern user interfaces for digital financial services.
+• Application of web standards and best practices in frontend development with TypeScript.
+• Full Stack development using Node.js, Express.js, and MySQL databases.
+• Implementation of unit testing and code quality assurance.
+• Configuration and optimization of Webpack to improve application performance.
+• Technical requirements definition and collaboration in agile methodologies (Scrum).
+• Multidisciplinary teamwork to transform the traditional financial industry.`,
     },
     {
       year: '2021 • june 2021 - january 2022 · (8 months)',
@@ -336,8 +431,14 @@ export const experienceEn: IExperience = {
       btn1: 'See more',
       btn2: 'See less',
       details: `
-      Skills: Web applications · Front end development · React.js · JavaScript · CSS · HTML · TypeScript · Full Stack development · Node.js · React Native · Webpack · Website Development · Git · Scrum · Teamwork · Team leadership · MySQL
-      `,
+• Leadership and management of Full Stack development teams in large-scale enterprise projects.
+• Development of robust web applications using React.js, TypeScript, JavaScript, HTML, and CSS.
+• Implementation of Full Stack architectures with Node.js, Express.js, and MySQL databases.
+• Development of hybrid mobile applications with React Native.
+• Configuration and optimization of build tools like Webpack to improve performance.
+• Application of agile methodologies (Scrum) for efficient project management.
+• Version control management with Git and collaboration in multidisciplinary teams.
+• Responsible for technical mentoring and professional development of the team.`,
     },
     {
       year: '2021 • january 2020 - january 2022 · (2 years 1 month)',
@@ -347,13 +448,15 @@ export const experienceEn: IExperience = {
       btn1: 'See more',
       btn2: 'See less',
       details: `
-      My professional focus is on developing robust, neat and secure web applications, following current best practices. I have extensive experience in both backend and frontend technologies, working with JavaScript, HTML, CSS, Node.js, Express.js and React.js on a daily basis. In addition, I use Restful Web Services and various databases such as MongoDB, MySQL and Firebase, depending on the needs of the project.
-      I am familiar with other technologies, such as JWT, AWS, Bootstrap 4, Tailwind CSS, Sequelize.js, Mongoose, EJS, Ruby on Rails and Wordpress, among others.
-      To ensure proper implementation, I like to deploy my projects on service platforms such as Heroku, Netlify or Vercel, to perform thorough testing.
-      Communication is fundamental to me, both in code and in the work team. I use GIT daily and tools such as Trello, Slack, Discord and G-Suite for efficient communication and organization.
-      I am passionate about challenging projects, as I consider them an opportunity to acquire new knowledge and enjoy the satisfaction of overcoming obstacles that test my skills.
-      Skills: Web applications · Front end development · React.js · JavaScript · CSS · HTML · English · TypeScript · Full Stack development · Express.js · React Native · Web Design · Webpack · Website Development · Blockchain · Git · MySQL · WordPress · Firebase · jQuery
-      `,
+• Development of robust and secure web applications following current industry best practices.
+• Full Stack experience with frontend technologies (React.js, JavaScript, TypeScript, HTML, CSS) and backend (Node.js, Express.js).
+• Implementation of RESTful APIs and integration with databases (MongoDB, MySQL, Firebase).
+• Development of hybrid mobile applications with React Native and responsive web design.
+• Experience with complementary technologies: JWT, AWS, Bootstrap, Tailwind CSS, Sequelize.js, Mongoose, Ruby on Rails, WordPress.
+• Deployment and testing of applications on cloud platforms (Heroku, Netlify, Vercel).
+• Project management with collaboration tools (Git, Trello, Slack, Discord, G-Suite).
+• Development of blockchain solutions and web3 applications with emerging technologies.
+• Focus on challenging projects requiring continuous learning and complex problem solving.`,
     },
     {
       year: '2016 - 2021 • january 2016 - april 2021 · (5 years 4 months)',
@@ -362,26 +465,13 @@ export const experienceEn: IExperience = {
       link: 'https://www.linkedin.com/company/gme-alliance/',
       btn1: 'See more',
       btn2: 'See less',
-      details: `GME offers the possibility of performing a functional mix within the area
-      commercial & IT focusing within the company on different roles:
-      • Commercial Technician: we develop commercial strategies with clients of
-      medium, achieving to adjust goals of acquisition of sites, follow-up of
-      operations and documentation to the day.
-      • Negotiations: we generate negotiation strategies in the governmental
-      environment, looking for the interest of municipalities and entities of the state for
-      the installation of our towers, encouraging the existing digital divide and the
-      need of the community regarding the low quality of the service.
-      • Legal Analysis: together with the legal team we make sure that the ordinances
-      of municipalities each year comply with the possibility of installation of
-      our towers, if not, we work on legal arguments that reach
-      a joint negotiation.
-      • Operations: I am in charge of the development and management of software
-      own, with it we establish in an automated way the different
-      responsibilities of each of our collaborators, making the follow-up and
-      progress report of the project much more bearable.
-      • Digital content: elaborations and dissemination of social media (web, networks,
-      presentations, etc) providing information of our competitions to the
-      community and the environment.`,
+      details: `
+• Commercial Technician: Development of commercial strategies with medium-sized clients, achieving site acquisition goals and operational follow-up.
+• Negotiations: Generation of negotiation strategies in governmental environments with municipalities and state entities for tower installations.
+• Legal Analysis: Collaboration with legal teams to ensure municipal ordinances comply with tower installation requirements.
+• Operations: Development and management of proprietary software for automated responsibility assignment and project progress tracking.
+• Digital Content: Creation and dissemination of social media content (web, networks, presentations) to inform the community about company capabilities.
+• Strategic Planning: Coordination of multifunctional roles within commercial and IT areas to optimize business operations.`,
     },
     {
       year: '2016 - 2020 • march 2016 - december 2020 (4 years 10 months)',
@@ -390,12 +480,13 @@ export const experienceEn: IExperience = {
       link: 'https://www.linkedin.com/company/gme-alliance/',
       btn1: 'See more',
       btn2: 'See less',
-      details: `Elaboration and management of the Product Backlog. Budget management and
-      determination of general requirements and initial activities of the project.
-      Represent the users of the product and ensure the financial resources
-      that the project requires for its start and development. Analysis of the viability of
-      entrepreneurship to ensure that the product is delivered. Development
-      and establishment of criteria for accepting user stories; approve or deny the products`,
+      details: `
+• Elaboration and management of Product Backlog with priority definition and project requirements.
+• Budget management and determination of general requirements for initial project activities.
+• Product user representation and ensuring necessary financial resources for project development.
+• Viability analysis of entrepreneurship initiatives to guarantee successful product delivery.
+• Development and establishment of acceptance criteria for user stories.
+• Product deliverable approval and validation according to established quality standards.`,
     },
     {
       year: '2019 - 2020 • march 2019 - march 2020 (1 year 1 month)',
@@ -404,10 +495,13 @@ export const experienceEn: IExperience = {
       link: 'https://www.linkedin.com/company/digital-boomeran/?viewAsMember=true',
       btn1: 'See more',
       btn2: 'See less',
-      details: `Advice and organization of work team, elimination of impediments
-      to ensure objectives in time and form, facilitator in presentations of
-      sprints before stackholders, carry out the dailies standups, administation and
-      management of Product Backlog.`,
+      details: `
+• Advisory and organization of work teams applying Scrum agile methodologies.
+• Elimination of impediments to ensure objective compliance within established timeframes.
+• Facilitation of sprint presentations before stakeholders and executive teams.
+• Conducting daily standups and agile ceremonies to maintain team communication.
+• Administration and management of Product Backlog with functionality prioritization.
+• Team coaching in agile practices and continuous process improvement.`,
     },
     {
       year: '2017 - 2019 • march 2017 - march 2019 (2 years 1 month)',
@@ -416,10 +510,13 @@ export const experienceEn: IExperience = {
       link: 'https://www.linkedin.com/company/digital-boomeran/?viewAsMember=true',
       btn1: 'See more',
       btn2: 'See less',
-      details: `Main functions focused on identifying business opportunities; creation and
-      classification of new ideas; co-design of the product;
-      optimizations and improvements; team leadership and best practices of
-      launch among others.`,
+      details: `
+• Identification and analysis of business opportunities for new product development.
+• Creation, evaluation, and classification of innovative ideas for the product portfolio.
+• Product co-design collaborating with development, UX/UI, and marketing teams.
+• Implementation of continuous optimizations and improvements based on user feedback.
+• Leadership of multidisciplinary teams for product development and launch.
+• Establishment of best practices for successful launches and product lifecycle management.`,
     },
     {
       year: '2014 - 2016 • february 2014 - january 2016 (2 years)',
@@ -428,15 +525,13 @@ export const experienceEn: IExperience = {
       link: '',
       btn1: 'See more',
       btn2: 'See less',
-      details: `My work focuses on ensuring the proper functioning of the networks and
-      software necessary for NMS.
-      Also maintain the link with our clients by establishing
-      infrastructure negotiations.
-      We continuously implement new technologies in the field of
-      telecommunications which generates a plus for our clients. The area of
-      software and IT drive the development of real-time cooperative systems,
-      where all the actors of the company are integrated strongly supporting
-      in the use of web management, apps and the internet of things.`,
+      details: `
+• Management and supervision of proper functioning of corporate networks and software systems.
+• Establishment and maintenance of client relationships for infrastructure negotiations.
+• Continuous implementation of new technologies in the telecommunications field.
+• Development of real-time cooperative systems integrating all company stakeholders.
+• Leadership in the adoption of web technologies, mobile applications, and Internet of Things (IoT).
+• IT process optimization to generate added value and competitive advantages for clients.`,
     },
     {
       year: '2013 - 2014 • march 2013 - january 2014 (11 months)',
@@ -445,7 +540,8 @@ export const experienceEn: IExperience = {
       link: '',
       btn1: 'See more',
       btn2: 'See less',
-      details: `CodeLive offers its customers secure applications and
+      details: `
+      CodeLive offers its customers secure applications and
       customized to your needs to do your business on the Internet. These
       solutions are designed so that the integration of the same
       with the other information systems that the company has for its management
@@ -458,7 +554,8 @@ export const experienceEn: IExperience = {
       link: 'https://www.linkedin.com/company/universidad-de-san-pablo-tucuman/',
       btn1: 'See more',
       btn2: 'See less',
-      details: `My work focuses on the internetworking of the USPT and the support to the
+      details: `
+      My work focuses on the internetworking of the USPT and the support to the
       daily inconveniences that arise in it, solving
       configuration contingencies, maintenance and development of Infrastructure
       network, servers, final equipment, etc.`,
@@ -470,7 +567,8 @@ export const experienceEn: IExperience = {
       link: 'http://rides.producciontucuman.gov.ar/',
       btn1: 'See more',
       btn2: 'See less',
-      details: `Technology Area, Government of the province, Argentina
+      details: `
+      Technology Area, Government of the province, Argentina
         Application development in .NET, Silverlight, API ArcGis for Silverlight,
         ArcGis Viewer for Silverlight`,
     },
@@ -481,7 +579,8 @@ export const experienceEn: IExperience = {
       link: '',
       btn1: 'See more',
       btn2: 'See less',
-      details: `System design, general business administration, purchases, sales,
+      details: `
+      System design, general business administration, purchases, sales,
       customer service, exclusive repairs of cell phones, advice
       comprehensive technique, software and hardware of multi-brand equipment.
       Technology Area, in Telecommunications industry, Argentina.`,
@@ -493,7 +592,8 @@ export const experienceEn: IExperience = {
       link: 'https://www.facebook.com/todosporttucuman/videos/juarez-frenos-y-embragues/152553996101977/',
       btn1: 'See more',
       btn2: 'See less',
-      details: `Equipment maintenance, design and maintenance
+      details: `
+      Equipment maintenance, design and maintenance
       internal lan network, inventory management and purchases, administration of
       current accounts.
       Administration area, in Automotive industry, Argentina`,

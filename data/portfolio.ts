@@ -30,6 +30,7 @@ import OversoftStorybook from '@/public/assets/img/portfolio/oversoft-storybook.
 import Santander from '@/public/assets/img/portfolio/santander.png';
 import NxMf from '@/public/assets/img/portfolio/nx-mf.png';
 import TokenManager from '@/public/assets/img/portfolio/defi-token.png';
+import TucuUi from '@/public/assets/img/portfolio/tucu-ui.png';
 
 import { StaticImageData } from 'next/image';
 
@@ -98,6 +99,26 @@ export interface IPortfolioData {
 }
 
 export const PortfolioDataEs: IPortfolioData[] = [
+  {
+    id: 0,
+    type: 'TUCU UI',
+    image: TucuUi,
+    tag: ['Destacados', 'Todos', 'Tailwind CSS', 'UI/UX', 'React JS'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Librería de Componentes',
+        client: 'Proyecto Personal',
+        language:
+          'Typescript, Tailwind CSS, Nx, Vite JS, Headless UI, Swiper, React JS, React Router Dom, Zustand',
+        preview: 'Tucu UI',
+        link: 'https://tucu-ui.netlify.app/',
+        repoLink: 'https://github.com/e-burgos/tucu-ui',
+        accessType: 'public',
+        details: `Moderna librería de componentes de UI/UX para React JS construida con TypeScript y Tailwind CSS v4. Cuenta con un sistema de temas avanzado con 31+ presets de color, arquitectura de color multi-capa y opciones de control granulares. Diseñada para desarrolladores que necesitan componentes listos para producción con capacidades de temas sofisticadas.`,
+      },
+    ],
+  },
   {
     id: 1,
     type: 'Microfrontends con React Query',
@@ -793,7 +814,7 @@ export const PortfolioDataEs: IPortfolioData[] = [
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'DeFi Token Manager',
+        project: 'DeFi Application',
         client: 'Wonderland',
         language:
           'Wagmi, Typescript, Vite JS, Tailwind CSS, React Query, Zustand, WalletConnect, Metamask',
@@ -808,6 +829,26 @@ export const PortfolioDataEs: IPortfolioData[] = [
 ];
 
 export const PortfolioDataEn: IPortfolioData[] = [
+  {
+    id: 0,
+    type: 'TUCU UI',
+    image: TucuUi,
+    tag: ['Featured', 'All', 'Tailwind CSS', 'UI/UX', 'React JS'],
+    delayAnimation: '200',
+    modalDetails: [
+      {
+        project: 'Component Library',
+        client: 'Project Personal',
+        language:
+          'Typescript, Tailwind CSS, Nx, Vite JS, Headless UI, Swiper, React JS, React Router Dom, Zustand',
+        preview: 'Tucu UI',
+        link: 'https://tucu-ui.netlify.app/',
+        repoLink: 'https://github.com/e-burgos/tucu-ui',
+        accessType: 'public',
+        details: `A modern, comprehensive React component library built with TypeScript and Tailwind CSS v4. Features an advanced theming system with 31+ color presets, multi-layered color architecture, and granular control options. Designed for developers who need production-ready components with sophisticated theming capabilities.`,
+      },
+    ],
+  },
   {
     id: 1,
     type: 'Microfrontends with React Query',
@@ -1505,7 +1546,7 @@ export const PortfolioDataEn: IPortfolioData[] = [
     delayAnimation: '200',
     modalDetails: [
       {
-        project: 'DeFi Token Manager',
+        project: 'DeFi Application',
         client: 'Wonderland',
         language:
           'Wagmi, Typescript, Vite JS, Tailwind CSS, React Query, Zustand, WalletConnect, Metamask',

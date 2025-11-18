@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/about-me/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/about-me/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -13,10 +13,10 @@
       "static/css/css-styles_index_scss.css",
       "static/chunks/app/layout.js"
     ],
-    "/about-me/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about-me/page.js"
+      "static/chunks/app/page.js"
     ],
     "/portfolio/page": [
       "static/chunks/webpack.js",

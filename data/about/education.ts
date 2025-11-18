@@ -37,7 +37,11 @@ export const educationEs: IEducation = {
       certificateLabel: 'Certificación',
       certificateLink:
         'https://drive.google.com/file/d/1NMNQmy123M7_TSm3h8rZRTiucOXS0Knr/view',
-      details: `Título Universitario • Promedio 8`,
+      details: `
+      • Título Universitario
+      • Promedio 8
+      • Especialización en Desarrollo de Software, Redes y Seguridad Informática.
+      `,
     },
     {
       btn1: 'Ver más',
@@ -259,7 +263,7 @@ export const educationEn: IEducation = {
       certificateLabel: 'Certification',
       certificateLink:
         'https://drive.google.com/file/d/1NMNQmy123M7_TSm3h8rZRTiucOXS0Knr/view',
-      details: `University Degree • Average 8`,
+      details: `University Degree • Average 8 • Specialization in Software Development, Networks and Information Security.`,
     },
     {
       btn1: 'See more',

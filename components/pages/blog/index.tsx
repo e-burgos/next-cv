@@ -2,12 +2,10 @@
 
 import React from 'react';
 import { TabPanel, Tabs } from 'react-tabs';
-import { useContent } from '../../../store/useContent';
 import Blog from '../../sections/blog';
 import Menu from '../../menu';
 
 const BlogPage = () => {
-  const { content } = useContent();
   return (
     <Tabs>
       <Menu currentTab="blog" />

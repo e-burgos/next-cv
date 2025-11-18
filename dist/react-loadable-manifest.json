@@ -23,7 +23,7 @@
   "app/page.tsx -> ../components/pages/home": {
     "id": "app/page.tsx -> ../components/pages/home",
     "files": [
-      "static/css/css-components_sections_profile_styles_profile_module_css.css",
+      "static/css/css-components_pages_home_styles_home_module_css-components_sections_featured-projects_featur-980faa.css",
       "static/chunks/_app-pages-browser_components_pages_home_index_tsx.js"
     ]
   },
